@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/* ----------- Header */
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 5px;
+} 
+
+li {
+    display: inline;
+}
+
+li a {
+    color: #fff;
+    padding: 10px; 
+    text-decoration: none;
+}
