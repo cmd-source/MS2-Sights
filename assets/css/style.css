@@ -28,3 +28,22 @@ li a {
 #staycation {
     text-align: center;
 }
+
+body {
+    background-image: url("../img/irelandbackground.jpg");
+    background-color: #cccccc;
+    height: 900px;
+}
+
+/* ----------- Footer */
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(53, 65, 228);
+}
+
+footer ul {
+    color: #fff;
+    text-align: center;
+}
