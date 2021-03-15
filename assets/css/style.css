@@ -41,6 +41,17 @@ img {
     transition: .25ms;
 }
 
+/* ----------- contact*/
+
+.contact {
+    position: relative;
+    text-align: center;
+    border: 1px solid grey;
+    widows: 50%;
+}
+
+/* ----------- page body*/
+
 body {
     background-image: url("../img/irelandbackground.jpg");
     background-color: #cccccc;
