@@ -43,11 +43,41 @@ img {
 
 /* ----------- contact*/
 
+section h3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
 .contact {
     position: relative;
     text-align: center;
     border: 1px solid grey;
-    widows: 50%;
+    width: 75%;
+}
+
+.contact-element {
+    margin: 15px;
+    border: 2px solid blue;
+    display: inline-block;
+    border-radius: 2px;
+    width: 60%;
+}
+
+input[type=button] {
+    height: 50px;
+    width: 75px;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: rgb(41, 75, 187);
+    opacity: 1;
+}
+
+input[type=button]:hover {
+    color: whitesmoke;
+    transition: 0.3s;
+    opacity: .9;
 }
 
 /* ----------- page body*/

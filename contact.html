@@ -48,14 +48,27 @@
 
 <body>
 
+<!--Form was made with the help of Bootstrap-->
     <section>
         <h3>Contact us if you have any questions</h3>
-        <div class="contact">
-            <input class="contact-element" type="text" value="Name" placeholder="Name" required>
-            <input class="contact-element" type="email" value="email" placeholder="Email" required>
-            <input class="contact-element" type="textarea" value="textarea" placeholder="Message" required>
-            <input class="contact-element" type="button" value="submit">
-        </div>
+        <form>
+            <div class="contact container">
+                <div class="mb-3">
+                    <input class="contact-element" type="text" value="" placeholder="Name" required>
+                </div>
+                <div class="mb-3">
+                    <input class="contact-element" type="" value="" placeholder="Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="contact-element" name="textarea" cols="6" rows="8" placeholder="Message" required>
+                    
+                    </textarea>
+                </div>
+                <div class="mb-3">
+                    <input type="button" value="submit">
+                </div>
+            </div>
+        </form>
     </section>
 
 </body>
