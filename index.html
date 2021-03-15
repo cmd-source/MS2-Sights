@@ -13,15 +13,33 @@
     <title>Staycation</title>
 </head>
 <header>
-    <nav class="navbar navbar-dark bg-primary">
-        <a>
-            <img src="assets/img/compass.png">
-        </a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Places</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+
+    <!--Navbar taken from Bootstrap-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/compass.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 </header>
 
@@ -53,12 +71,12 @@
     </section>
 </body>
 
-<footer>
+<footer class="bg-light">
     <ul>
-        <li><a href="#" target="_blank">Facebook</a></li>
-        <li><a href="#" target="_blank">Twitter</a></li>
-        <li><a href="#" target="_blank">Instagram</a></li>
-        <li><a href="#" target="_blank">LinkedIn</a></li>
+        <li><a href="#" target="_blank" class="footer-element">Facebook</a></li>
+        <li><a href="#" target="_blank" class="footer-element">Twitter</a></li>
+        <li><a href="#" target="_blank" class="footer-element">Instagram</a></li>
+        <li><a href="#" target="_blank" class="footer-element">LinkedIn</a></li>
     </ul>
 </footer>
 

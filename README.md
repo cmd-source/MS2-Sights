@@ -9,5 +9,7 @@
 - [Quote#2] (https://pxhere.com/en/photo/540857)
 - [Quote#3] (https://pxhere.com/en/photo/540853)
 
+- Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
+
 ### Acknowledgements:
 - Got help setting the footer to the bottom of the page on (https://stackoverflow.com/questions/3443606/make-footer-stick-to-bottom-of-page-correctly)

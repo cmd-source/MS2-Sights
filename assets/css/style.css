@@ -52,7 +52,7 @@ body {
 /* ----------- Footer */
 
 footer{
-    height: 50px;
+    height: 75px;
     width: 100%;
     background-color: rgb(53, 65, 228);
     bottom: 0;
@@ -62,4 +62,10 @@ footer{
 footer ul {
     color: #fff;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-element {
+    color: rgb(53, 65, 228);;
 }
