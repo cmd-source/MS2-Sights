@@ -80,6 +80,13 @@ input[type=button]:hover {
     opacity: .9;
 }
 
+/* ----------- places */
+
+#mapid { 
+    margin-top: 150px;
+    height: 400px; 
+}
+
 /* ----------- page body*/
 
 body {

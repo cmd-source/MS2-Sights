@@ -9,6 +9,8 @@
 - [Quote#2] (https://pxhere.com/en/photo/540857)
 - [Quote#3] (https://pxhere.com/en/photo/540853)
 
+- Places page [Map](https://leafletjs.com/examples/quick-start/)
+
 - Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
 
 ### Acknowledgements:
