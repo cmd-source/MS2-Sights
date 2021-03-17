@@ -52,7 +52,7 @@
     </nav>
 </header>
 
-<body>
+<body id="places">
     <div id="mapid"></div>
 </body>
 
@@ -77,6 +77,10 @@
         zoomOffset: -1,
         accessToken: 'pk.eyJ1IjoiY21kLXFxcSIsImEiOiJja21kNjA3MDcwOWZuMnBwNTBweTF2aHlrIn0.aPVMHp5DWzQ4Ka9t-DOFZw'
     }).addTo(mymap);
+
+    var marker = L.marker([53.3498, -6.2603]).addTo(mymap);
+    marker.bindPopup("<b>Hello world!</b><br>Dublin is Ireland's Capital.</br><img src='assets/img/dublin.jpg'>").openPopup();
+
 </script>
 
 </html>

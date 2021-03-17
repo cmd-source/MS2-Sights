@@ -83,9 +83,14 @@ input[type=button]:hover {
 /* ----------- places */
 
 #mapid { 
-    margin-top: 120px;
-    height: 500px; 
+    margin-top: 70px;
+    margin-left: 275px;
+    margin-right: 275px;
+    height: 600px; 
+    
+    text-align: center;
 }
+
 
 /* ----------- page body*/
 
