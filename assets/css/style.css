@@ -91,6 +91,10 @@ input[type=button]:hover {
     text-align: center;
 }
 
+.place {
+    height: 75px;
+    width: 125px; 
+}
 
 /* ----------- page body*/
 
