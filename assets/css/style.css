@@ -91,9 +91,24 @@ input[type=button]:hover {
     text-align: center;
 }
 
-.place {
+#place {
     height: 75px;
     width: 125px; 
+}
+
+@media screen and (max-width: 1250px) {
+
+    #places {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #mapid {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 /* ----------- page body*/
