@@ -29,17 +29,11 @@ img {
     font-family: 'Akaya Telivigala', cursive;
 }
 
-#homelocator{
-    font-size: xx-large;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
-}
-
-#homelocator:hover {
-    font-size: 300%;
-    transition: .25ms;
-}
+.quoateimg {
+    height: 115px;
+    width: 170px;
+    border-radius: 10px;
+} 
 
 /* ----------- contact*/
 

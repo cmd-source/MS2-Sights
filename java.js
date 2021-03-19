@@ -1,3 +1,18 @@
+$(document).ready(function(){
+    $("p").css({
+        textAlign: "center"
+    }).hide()
+    
+    })
+    $(".name a").css({
+        textAlign: "center",
+        color:"black"
+    
+});
+
+
+//---------Maps---------//
+
 var mymap = L.map('mapid').setView([53.1424, -7.6921], 7);
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
