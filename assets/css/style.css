@@ -35,6 +35,10 @@ img {
     border-radius: 10px;
 } 
 
+.name{
+    text-align: center;
+}
+
 /* ----------- contact*/
 
 section h3 {
