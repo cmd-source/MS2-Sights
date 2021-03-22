@@ -11,6 +11,8 @@
 
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 
+- Gallary with [lightbox] (https://lokeshdhakar.com/projects/lightbox2/)
+
 - Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
 
 ### Acknowledgements:
