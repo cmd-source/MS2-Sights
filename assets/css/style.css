@@ -84,6 +84,34 @@ input[type=button]:hover {
     opacity: .9;
 }
 
+/* ----------- gallary */
+
+#gallaryhead {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.gallary {
+    text-align: center;
+}
+.gallary img {
+    height: 133px;
+    width: 200px;
+    border-radius: 2px;
+    padding: 5px 5px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.gallary img:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+
+
 /* ----------- places */
 
 #mapid { 
