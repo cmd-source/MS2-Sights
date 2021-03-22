@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     $(".name a").css({
         textAlign: "center",
+        fontFamily: "Akaya Telivigala",
         color: "white",
         textDecoration: "none"
     }).hover(function () {
@@ -14,9 +15,13 @@ $(document).ready(function () {
     });
 
     $("a").click(function (e) {
-        e.preventDefault;
+        e.preventDefault();
         $(this).next().slideToggle('slow');
     });
+
+    $(".para").css({
+        backgroundColor: "rgba(72, 124, 177, 0.6)"
+    })
 
 });
 

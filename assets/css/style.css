@@ -39,6 +39,7 @@ img {
     text-align: center;
 }
 
+
 /* ----------- contact*/
 
 section h3 {
@@ -114,7 +115,7 @@ input[type=button]:hover {
 body {
     background-image: url("../img/irelandbackground.jpg");
     background-color: #cccccc;
-    height: 900px;
+    height: 1100px;
 }
 
 #quotes{
