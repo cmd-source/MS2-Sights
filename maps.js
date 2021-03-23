@@ -24,5 +24,11 @@ marker4.bindPopup("<b>Cork</b><br>Cork is the second largest city in Ireland.</b
 var marker5 = L.marker([53.7599, -9.6598]).addTo(mymap);
 marker5.bindPopup("<b>Croagh Patrick</b><br>Croagh Patrick, nicknamed the Reek, is a 764 m mountain and an important site of pilgrimage in Mayo.</br><img class='place' src='assets/img/croaghpatrick.jfif'>").openPopup();
 
+var marker6 = L.marker([53.0120, -6.3298]).addTo(mymap);
+marker6.bindPopup("<b>Glendalough</b><br>The Glendalough Valley is located in the Wicklow Mountains National Park and has many attractions.</br><img class='place' src='assets/img/croaghpatrick.jfif'>").openPopup();
+
+var marker7 = L.marker([52.6505, -7.2493]).addTo(mymap);
+marker7.bindPopup("<b>Kilkenny Castle</b><br>Kilkenny Castle is a castle in Kilkenny, Ireland built in 1195 to control a fording-point of the River Nore.</br><img class='place' src='assets/img/croaghpatrick.jfif'>").openPopup();
+
 var marker = L.marker([53.3498, -6.2603]).addTo(mymap);
 marker.bindPopup("<b>Hello world!</b><br>Dublin is Ireland's Capital.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
