@@ -25,13 +25,29 @@ img {
 
 #staycation {
     text-align: center;
+    padding-top: 50px;
     margin-bottom: 100px;
     font-family: 'Akaya Telivigala', cursive;
 }
 
+#staycation h4 {
+    color: white;
+}
+
+#marker{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: xx-large;
+}
+
+#marker:hover{
+    transform: scale(1.6);
+    transition: 0.5s;
+}
+
 .quoateimg {
-    height: 115px;
-    width: 170px;
+    height: 170px;
+    width: 135px;
     border-radius: 10px;
 } 
 
@@ -88,16 +104,20 @@ input[type=button]:hover {
 
 #gallaryhead {
     font-family: 'Akaya Telivigala', cursive;
+    font-size: 35px;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
 .gallary {
+    width: 50%;
     text-align: center;
+    margin: 0 auto;
 }
 .gallary img {
-    height: 133px;
-    width: 200px;
+    height: 140px;
+    width: 210px;
     border-radius: 2px;
     padding: 5px 5px;
     filter: grayscale(100%);
@@ -109,8 +129,6 @@ input[type=button]:hover {
     transition: 0.5s;
     transform: scale(1.2);
 }
-
-
 
 /* ----------- places */
 
