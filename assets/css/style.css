@@ -166,7 +166,9 @@ input[type=button]:hover {
 body {
     background-image: url("../img/irelandbackground.jpg");
     background-color: #cccccc;
-    height: 1100px;
+    min-height: calc(100vh -110px -75px);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #quotes{
@@ -181,10 +183,11 @@ body {
 /* ----------- Footer */
 
 footer{
+    
     height: 75px;
     width: 100%;
     background-color: rgb(53, 65, 228);
-    bottom: 0;
+    margin-top: 100px;
     position: absolute;
 }
 
@@ -200,7 +203,6 @@ li {
     display: inline;
     text-decoration: none;
 }
-
 
 .footer-element {
     color: rgb(53, 65, 228);
