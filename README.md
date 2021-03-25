@@ -16,6 +16,7 @@
     - [Kilkenny Castle](https://pixabay.com/photos/kilkenny-castle-castle-kilkenny-3136336/)
     - [Glendalough](https://www.flickr.com/photos/53400673@N08/15378477522)
     - [Killarney](https://commons.wikimedia.org/wiki/File:Old_Weir_Bridge,_Killarney_National_Park.jpg)
+    - [Wexford] (https://www.flickr.com/photos/michalo/2629154762)
 
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 

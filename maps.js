@@ -33,5 +33,8 @@ marker7.bindPopup("<b>Kilkenny Castle</b><br>Killarney is a town on the shores o
 var marker8 = L.marker([52.0599, -9.5044]).addTo(mymap);
 marker8.bindPopup("<b>Killarney</b><br>Kilkenny Castle is a castle in Kilkenny, Ireland built in 1195 to control a fording-point of the River Nore.</br><img class='place' src='assets/img/killarneynp.jfif'>").openPopup();
 
+var marker9 = L.marker([52.3369, -6.4633]).addTo(mymap);
+marker9.bindPopup("<b>Wexford</b><br>Wexford is a town in the southeast of Ireland. Wexford has a lot of countryside and beautiful beaches including the Curracloe where the film Saving Private Ryan was shot.</br><img class='place' src='assets/img/ballinesker.jpg'>").openPopup();
+ 
 var marker = L.marker([53.3498, -6.2603]).addTo(mymap);
 marker.bindPopup("<b>Dublin City</b><br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
