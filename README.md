@@ -11,6 +11,12 @@
 - [Quote#2] (https://pxhere.com/en/photo/540857)
 - [Quote#3] (https://pxhere.com/en/photo/540853)
 
+#### Map Images:
+
+    - [Kilkenny Castle](https://pixabay.com/photos/kilkenny-castle-castle-kilkenny-3136336/)
+    - [Glendalough](https://www.flickr.com/photos/53400673@N08/15378477522)
+    - [Killarney](https://commons.wikimedia.org/wiki/File:Old_Weir_Bridge,_Killarney_National_Park.jpg)
+
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 
 - Gallary with [lightbox] (https://lokeshdhakar.com/projects/lightbox2/)

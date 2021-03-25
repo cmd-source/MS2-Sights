@@ -14,9 +14,9 @@ html {
 
 /* ----------- Header */
 
-img {
-    height: 100px;
-    width: 100px;
+.navbar-brand img {
+    height: 80px;
+    width: 80px;
     border-radius: 50px;
     margin-left: 5px;
 } 
@@ -60,13 +60,13 @@ img {
     transition: 0.5s;
 }
 
-
 /* ----------- contact*/
 
 section h3 {
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Akaya Telivigala', cursive;
 }
 
@@ -79,7 +79,7 @@ section h3 {
 
 .contact-element {
     margin: 15px;
-    border: 2px solid blue;
+    border: 2px solid rgb(191, 191, 231);
     display: inline-block;
     border-radius: 2px;
     width: 60%;
@@ -88,10 +88,20 @@ section h3 {
 input[type=button] {
     height: 50px;
     width: 75px;
-    border: 2px solid blue;
+    border: 2px solid rgb(191, 191, 231);
     border-radius: 3px;
     background-color: rgb(41, 75, 187);
     opacity: 1;
+}
+
+input:hover {
+    box-shadow: 0 0 4px rgb(49, 46, 46);
+    border: 2px solid rgb(12, 9, 9)
+}
+
+textarea:hover {
+    box-shadow: 0 0 4px rgb(49, 46, 46);
+    border: 2px solid rgb(12, 9, 9)
 }
 
 input[type=button]:hover {
@@ -115,6 +125,7 @@ input[type=button]:hover {
     text-align: center;
     margin: 0 auto;
 }
+
 .gallary img {
     height: 140px;
     width: 210px;
@@ -137,14 +148,21 @@ input[type=button]:hover {
     margin-left: 275px;
     margin-right: 275px;
     height: 600px; 
-    
     text-align: center;
 }
 
-#place {
-    height: 75px;
-    width: 125px; 
+#places h4 {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
 }
+
+img {
+    height: 140px;
+    width: 200px;
+    border-radius: 5px;
+} 
 
 @media screen and (max-width: 1250px) {
 

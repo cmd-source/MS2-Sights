@@ -25,10 +25,13 @@ var marker5 = L.marker([53.7599, -9.6598]).addTo(mymap);
 marker5.bindPopup("<b>Croagh Patrick</b><br>Croagh Patrick, nicknamed the Reek, is a 764 m mountain and an important site of pilgrimage in Mayo.</br><img class='place' src='assets/img/croaghpatrick.jfif'>").openPopup();
 
 var marker6 = L.marker([53.0120, -6.3298]).addTo(mymap);
-marker6.bindPopup("<b>Glendalough</b><br>The Glendalough Valley is located in the Wicklow Mountains National Park and has many attractions.</br><img class='place' src='assets/img/croaghpatrick.jfif'>").openPopup();
+marker6.bindPopup("<b>Glendalough</b><br>The Glendalough Valley is located in the Wicklow Mountains National Park and has many attractions.</br><img class='place' src='assets/img/glendalough2.jpg'>").openPopup();
 
 var marker7 = L.marker([52.6505, -7.2493]).addTo(mymap);
-marker7.bindPopup("<b>Kilkenny Castle</b><br>Kilkenny Castle is a castle in Kilkenny, Ireland built in 1195 to control a fording-point of the River Nore.</br><img class='place' src='assets/img/croaghpatrick.jfif'>").openPopup();
+marker7.bindPopup("<b>Kilkenny Castle</b><br>Killarney is a town on the shores of Lough Leane in southwest Ireland’s County Kerry. Across the bridge from the cathedral is Killarney National Park.</br><img class='place' src='assets/img/kilkennycastle.jpg'>").openPopup();
+
+var marker8 = L.marker([52.0599, -9.5044]).addTo(mymap);
+marker8.bindPopup("<b>Killarney</b><br>Kilkenny Castle is a castle in Kilkenny, Ireland built in 1195 to control a fording-point of the River Nore.</br><img class='place' src='assets/img/killarneynp.jfif'>").openPopup();
 
 var marker = L.marker([53.3498, -6.2603]).addTo(mymap);
-marker.bindPopup("<b>Hello world!</b><br>Dublin is Ireland's Capital.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
+marker.bindPopup("<b>Dublin City</b><br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
