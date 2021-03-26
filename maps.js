@@ -37,4 +37,4 @@ var marker9 = L.marker([52.3369, -6.4633]).addTo(mymap);
 marker9.bindPopup("<b>Wexford</b><br>Wexford is a town in the southeast of Ireland. Wexford has a lot of countryside and beautiful beaches including the Curracloe where the film Saving Private Ryan was shot.</br><img class='place' src='assets/img/ballinesker.jpg'>").openPopup();
  
 var marker = L.marker([53.3498, -6.2603]).addTo(mymap);
-marker.bindPopup("<b>Dublin City</b><br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
+marker.bindPopup("<a href='https://en.wikipedia.org/wiki/Dublin' target='_blank'><b>Dublin City</b></a> <br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
