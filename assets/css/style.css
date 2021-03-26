@@ -85,7 +85,7 @@ section h3 {
     width: 60%;
 }
 
-input[type=button] {
+#sub {
     height: 50px;
     width: 75px;
     border: 2px solid rgb(191, 191, 231);

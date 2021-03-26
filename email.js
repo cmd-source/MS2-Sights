@@ -1,3 +1,5 @@
+//Email function was mainly taken from Code Institutes lesson Interactive Frontend Developement > Putting it all together > Sending Emails Using EmailJS 
+
 function sendMail(contact) {
     emailjs.send("gmail", "conor", {
         "from_name": contact.name.value,
@@ -15,9 +17,3 @@ function sendMail(contact) {
     alert("Well get back to you shortly")
     return false;
 }
-
-document.getElementById("sub").addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-        sendMail(contactForm);
-    }
-})

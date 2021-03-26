@@ -61,10 +61,10 @@
         <form onsubmit="return sendMail(this)">
             <div class="contact container">
                 <div class="mb-3">
-                    <input class="contact-element" type="text" name="name" placeholder="Name" required>
+                    <input class="contact-element" type="text" id="name" name="name" placeholder="Name" required />
                 </div>
                 <div class="mb-3">
-                    <input class="contact-element" type="" name="name" placeholder="Email" required>
+                    <input class="contact-element" type="email" id="emailaddress" name="emailaddress" placeholder="Email" required />
                 </div>
                 <div class="mb-3">
                     <textarea class="contact-element" name="textarea" cols="6" rows="8" placeholder="Message" required>
@@ -72,7 +72,7 @@
                     </textarea>
                 </div>
                 <div class="mb-3">
-                    <input type="button" value="submit">
+                    <input type="submit" id="sub"/>
                 </div>
             </div>
         </form>
