@@ -104,7 +104,7 @@ textarea:hover {
     border: 2px solid rgb(12, 9, 9)
 }
 
-input[type=button]:hover {
+input[type=submit]:hover {
     color: whitesmoke;
     transition: 0.3s;
     opacity: .9;
