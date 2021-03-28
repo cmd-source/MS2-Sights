@@ -87,25 +87,25 @@ var myIcon = L.icon({
     iconUrl: 'assets/img/hotel.png',
     iconSize: [40,65],
     iconAnchor: [22, 74],
-    popupAnchor: [-3, -76],
+    popupAnchor: [-3, -60],
 });
 
 var myIcon2 = L.icon({
     iconUrl: 'assets/img/hotel.png',
     iconSize: [40,65],
     iconAnchor: [22, 74],
-    popupAnchor: [-3, -76],
+    popupAnchor: [-3, -60],
 });
 
 var myIcon3 = L.icon({
     iconUrl: 'assets/img/hotel.png',
     iconSize: [40,65],
     iconAnchor: [22, 74],
-    popupAnchor: [-3, -76],
+    popupAnchor: [-3, -60],
 });
 
-L.marker([53.33120820616524, -6.248670668226215], {icon: myIcon}).bindPopup("<h6>The Clayton Hotel.</h6><br/>Leeson Street Upper<br/>4 Star").addTo(mymap2);
+L.marker([53.33120820616524, -6.248670668226215], {icon: myIcon}).bindPopup("<a href='https://www.claytonhotelburlingtonroad.com/' target='_blank'><h6>The Clayton Hotel.</h6></a><br/>Leeson Street Upper<br/>4 Star").addTo(mymap2);
 
-L.marker([53.34949894347942, -6.241970478425741], {icon: myIcon2}).bindPopup("<h6>Spencer Hotel.</h6><br/>Excise Walk<br/> International Financial Services Centre<br/>4 Star").addTo(mymap2);
+L.marker([53.34949894347942, -6.241970478425741], {icon: myIcon2}).bindPopup("<a href='https://www.thespencerhotel.com/'><h6>Spencer Hotel.</h6></a><br/>Excise Walk<br/> International Financial Services Centre<br/>4 Star").addTo(mymap2);
 
-L.marker([53.342802315571134, -6.308201884169745], {icon: myIcon3}).bindPopup("<h6>Hilton Dublin.</h6><br/>S Circular Rd<br/> Kilmainham<br/>4 Star").addTo(mymap2);
+L.marker([53.342802315571134, -6.308201884169745], {icon: myIcon3}).bindPopup("<a href='https://www.hilton.com/en/hotels/dubkmhi-hilton-dublin-kilmainham/' target='_blank'><h6>Hilton Dublin.</h6></a><br/>S Circular Rd<br/> Kilmainham<br/>4 Star").addTo(mymap2);
