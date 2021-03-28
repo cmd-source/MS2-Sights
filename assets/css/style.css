@@ -46,13 +46,14 @@ html {
 }
 
 .quoateimg {
-    height: 170px;
-    width: 135px;
+    height: 145px;
+    width: 220px;
     border-radius: 10px;
 } 
 
 .name{
     text-align: center;
+    transition: 0.5s;
 }
 
 .name:hover{
@@ -62,7 +63,7 @@ html {
 
 /* ----------- contact*/
 
-section h3 {
+section h4 {
     text-align: center;
     font-size: 35px;
     padding-top: 50px;
@@ -88,15 +89,18 @@ section h3 {
 #sub {
     height: 50px;
     width: 75px;
+    color: rgb(191, 191, 231);
     border: 2px solid rgb(191, 191, 231);
     border-radius: 3px;
-    background-color: rgb(41, 75, 187);
+    background-color: rgb(67, 95, 185);
     opacity: 1;
 }
 
-input:hover {
+#sub:hover {
     box-shadow: 0 0 4px rgb(49, 46, 46);
-    border: 2px solid rgb(12, 9, 9)
+    border: 2px solid rgb(67, 95, 185);
+    background-color: rgb(191, 191, 231);
+    color: rgb(67, 95, 185);
 }
 
 textarea:hover {
@@ -144,7 +148,7 @@ input[type=submit]:hover {
 /* ----------- places */
 
 #mapid { 
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 275px;
     margin-right: 275px;
     height: 600px; 
@@ -183,6 +187,7 @@ img {
 
 body {
     background-image: url("../img/irelandbackground.jpg");
+    background-repeat: no-repeat;
     background-color: #cccccc;
     min-height: calc(100vh -110px -75px);
     padding-bottom: 50px;
@@ -192,6 +197,7 @@ body {
 #quotes{
     color: #fff;
     margin-top: 100px;
+    margin-bottom: 75px;
 }
 
 .quote{
@@ -202,6 +208,7 @@ body {
 
 footer{
     
+    bottom: 0;
     height: 75px;
     width: 100%;
     background-color: rgb(53, 65, 228);
