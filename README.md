@@ -1,8 +1,52 @@
+# Ireland's Sights
+
+There are 2 goals for this website. (1) For external users coming to the site to be able to plan their next stay in Ireland. (2) To get the users coming to the website to book a travel/tour guide package of Dublin City. 
+
+## UX
+
+This website is mainly for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
+
+- As an individual I want to be able to find an area in Ireland to travel to that I havent been to before. I want a range of choice and I want to see the experiences that others had before me.
+
+- As a family we want to find an area to travel to within Ireland with a range of choice. We want to see a preview of the experiences others have had before us and the images of the locations to see if it would be possible to take small children. We would also need family rates and the option of contacting the sites owners in order to ask additional questions that might arise.
+
+- [Homepage](assets/img/homepage.JPG)
+- [Places](assets/img/places.JPG)
+- [Gallary](assets/img/gall.JPG)
+- [Contact](assets/img/contact.JPG)
+
+## Features
+
+- A navbar for desktop that collapses into a hamburger icon for the mobile version.
+- On the Homepage 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
+- On the Places page there are 2 maps using LeafletJS API's. The first shows locations throughout Ireland, the second shows Dubin City. Both maps can be interacted with.
+- On the Gallary there are 9 images which can be rotated through when click on by the user. The Gallary was made with the Lightbox API.
+- On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API.
+
+#### Features Left to Implement
+
+- An option for the user to book the dates they want would be useful for future developement and could probably be achieved through an API.
+
+## Technologies Used
+
+The website uses the following technologies and libraries:
+
+- HTML5 for the website strcuture.
+- CSS3 for the websites appearence.
+- Javascript for DOM manipulation.
+
+- Bootstrap 4
+- JQuery 
+- Lightbox
+- EmailJS
+- LeafletJS
+
+
 ### Testing
 
 - Content kept cutting through the footer, solved it by removing a bottom of zero from the footer
 
-### Credts:
+## Credts:
 - Logo [pixabay](https://cdn.pixabay.com/photo/2020/07/17/12/25/compass-5413948_1280.png)
 - Background [nuwallpaperhd](https://nuwallpaperhd.info/ireland/awesome-ireland-nature-wallpaper-background-image/)
 - Locator [vector](https://www.vectorstock.com/royalty-free-vector/location-icon-gps-marker-symbol-map-pin-icon-vector-28471585)
