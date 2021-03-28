@@ -4,6 +4,8 @@ There are 2 goals for this website. (1) For external users coming to the site to
 
 ## UX
 
+![Mockup](assets/img/mockup.JPG)
+
 This website is mainly for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
 
 - As an individual I want to be able to find an area in Ireland to travel to that I havent been to before. I want a range of choice and I want to see the experiences that others had before me.
