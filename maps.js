@@ -38,3 +38,46 @@ marker9.bindPopup("<a href='https://en.wikipedia.org/wiki/Wexford' target='_blan
  
 var marker = L.marker([53.3498, -6.2603]).addTo(mymap);
 marker.bindPopup("<a href='https://en.wikipedia.org/wiki/Dublin' target='_blank'><b>Dublin City</b></a> <br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
+
+
+var mymap2 = L.map('mapid2').setView([53.3498, -6.2603], 12); 
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoiY21kLXFxcSIsImEiOiJja21kNjA3MDcwOWZuMnBwNTBweTF2aHlrIn0.aPVMHp5DWzQ4Ka9t-DOFZw'
+}).addTo(mymap2);
+
+var polygon = L.polygon([
+    [53.370917, -6.336743],
+    [53.35790424997997, -6.30442583157829],
+    [53.34905278771516, -6.296963973322202],
+    [53.34685500816252, -6.3271152497603635],
+    [53.34969571938634, -6.34374921558311],
+    [53.36119600570977, -6.3599346175263705],
+    [53.36699064442164, -6.35361865626442],
+]).addTo(mymap2);
+
+polygon.bindPopup("The Phoenix Park is one of the biggest city parks in Europe. It is home to open ghrassland, wild dear and the Dublin ZOO");
+
+var polygon2 = L.polygon([
+    [53.35884167655432, -6.176283627806286],
+    [53.376779474557715, -6.14186379900399],
+    [53.383406749458956, -6.114850768804721],
+    [53.352990761504685, -6.166044817972692]
+]).addTo(mymap2);
+
+polygon2.bindPopup("Dollymount Strand is a beach that is connected by a wooden bridge to Clontarf. It is an area that covers about 5km of sand and dunes on the island's eastern shore");
+
+var circle = L.circle([53.34530437971692, -6.2671261755655046], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: '0.4',
+    radius: 750,
+}).addTo(mymap2);
+
+circle.bindPopup("Dublin city has many attractions and sights to see. Please see our booking tours below for the full guide to Dublin City.")
+

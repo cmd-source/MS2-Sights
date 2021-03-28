@@ -151,7 +151,16 @@ input[type=submit]:hover {
     margin-top: 50px;
     margin-left: 275px;
     margin-right: 275px;
-    height: 600px; 
+    height: 500px; 
+    text-align: center;
+}
+
+#mapid2 {
+    margin-top: 50px;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 75px;
+    height: 500px; 
     text-align: center;
 }
 
