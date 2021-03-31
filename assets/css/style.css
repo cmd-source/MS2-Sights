@@ -39,7 +39,7 @@ html {
     height: 75px;
     width: 50px;
     margin: 15px auto;
-    font-size: xx-large;
+    font-size: large;
     transition: 0.5s;
 }
 
@@ -69,8 +69,6 @@ html {
 section h4 {
     text-align: center;
     font-size: 35px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     font-family: 'Akaya Telivigala', cursive;
 }
 

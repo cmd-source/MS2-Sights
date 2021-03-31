@@ -19,15 +19,22 @@ $(document).ready(function () {
         $(this).next().slideToggle('slow');
     });
 
+    $(".name img").hover(function(){
+        $(this).css("box-shadow", "0 0 25px rgb(49, 46, 46)");
+    }, function() {
+        $(this).css("box-shadow", "none");
+    });
+
     $(".para").css({
         backgroundColor: "rgba(72, 124, 177, 0.6)"
     })
 
     $("#marker a i").css({
-        transform: "scale(1.8)",
+        transform: "scale(3)",
         color: "red",
         transition: "2s"
     })
+
 
 });
 
