@@ -31,7 +31,6 @@ html {
 }
 
 #staycation h4 {
-    color: white;
     padding-top: 0;
 }
 
@@ -66,6 +65,12 @@ html {
 
 .exp {
     padding-top: 5px;
+    color:#212529;
+}
+
+.exp:hover {
+    text-decoration: underline;
+    text-decoration-color: #212529;
 }
 
 /* ----------- contact*/
@@ -214,7 +219,7 @@ img {
 /* ----------- page body*/
 
 body {
-    background-image: url("../img/irelandbackground.jpg");
+    background-image: url("../img/bg-img.jpg");
     background-repeat: no-repeat;
     background-color: #cccccc;
     min-height: calc(100vh -110px -75px);
