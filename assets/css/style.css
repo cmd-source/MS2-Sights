@@ -64,6 +64,10 @@ html {
     transition: 0.5s;
 }
 
+.exp {
+    padding-top: 5px;
+}
+
 /* ----------- contact*/
 
 section h4 {
