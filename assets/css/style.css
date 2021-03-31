@@ -126,14 +126,14 @@ input[type=submit]:hover {
 }
 
 .gallary {
-    width: 50%;
+    width: 70%;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 .gallary img {
-    height: 140px;
-    width: 210px;
+    height: 175px;
+    width: 280px;
     border-radius: 2px;
     padding: 5px 5px;
     filter: grayscale(100%);
