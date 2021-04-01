@@ -170,10 +170,14 @@ textarea:hover {
 }
 
 #mapid { 
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: 275px;
     margin-right: 275px;
     height: 500px; 
+    text-align: center;
+}
+
+#bttn {
     text-align: center;
 }
 
