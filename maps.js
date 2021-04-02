@@ -21,9 +21,18 @@ var marker8 = L.marker([52.0599, -9.5044]).bindPopup("<a href='https://en.wikipe
 var marker9 = L.marker([52.3369, -6.4633]).bindPopup("<a href='https://en.wikipedia.org/wiki/Wexford' target='_blank'><b>Wexford</b></a><br>Wexford is a town in the southeast of Ireland. Wexford has a lot of countryside and beautiful beaches including the Curracloe where the film Saving Private Ryan was shot.</br><img class='place' src='assets/img/ballinesker.jpg'>").openPopup();
 
 //city markers
-var city = L.marker([51.8985, -8.4756]).bindPopup("<a href='https://en.wikipedia.org/wiki/Cork_(city)' target='_blank'><b>Cork</b></a><br>Cork is the second largest city in Ireland.</br><img class='place' src='assets/img/cork.jfif'>").openPopup();
-var city2 = L.marker([53.3498, -6.2603]).bindPopup("<a href='https://en.wikipedia.org/wiki/Dublin' target='_blank'><b>Dublin City</b></a> <br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
-var city3 = L.marker([52.2593, -7.1101]).bindPopup ("<a href= 'https://en.wikipedia.org/wiki/Waterford' target='_blank'><b>Waterford City</b></a> <br> Waterford City is Ireland's fifth biggest city</br><img class='place' src='assets/img/waterfordcity.jfif'>").openPopup();
+
+var myIcon2 = L.icon({
+    iconUrl: 'assets/img/city.png',
+    iconSize: [40,65],
+    iconAnchor: [22, 74],
+    popupAnchor: [-3, -60],
+});
+
+
+var city = L.marker([51.8985, -8.4756], {icon: myIcon2}).bindPopup("<a href='https://en.wikipedia.org/wiki/Cork_(city)' target='_blank'><b>Cork</b></a><br>Cork is the second largest city in Ireland.</br><img class='place' src='assets/img/cork.jfif'>").openPopup();
+var city2 = L.marker([53.3498, -6.2603], {icon: myIcon2}).bindPopup("<a href='https://en.wikipedia.org/wiki/Dublin' target='_blank'><b>Dublin City</b></a> <br>Dublin is Ireland's Capital and is an attracting in of itself with Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
+var city3 = L.marker([52.2593, -7.1101], {icon: myIcon2}).bindPopup ("<a href= 'https://en.wikipedia.org/wiki/Waterford' target='_blank'><b>Waterford City</b></a> <br> Waterford City is Ireland's fifth biggest city</br><img class='place' src='assets/img/waterfordcity.jfif'>").openPopup();
 
 //hotels markers around Ireland
 
@@ -44,7 +53,7 @@ var hotel5 = L.marker([52.3359857644437, -6.456867216112228], {icon: myIcon}).bi
 
 var sights = L.layerGroup([marker2, marker3, marker5, marker6, marker7, marker8, marker9]);
 var hotel = L.layerGroup([hotel1, hotel2, hotel3, hotel4, hotel5]);
-var cities = L.layerGroup ([city, city2, city3])
+var cities = L.layerGroup ([city, city2, city3]);
 
 var overlays = {
     "Sights" : sights,
