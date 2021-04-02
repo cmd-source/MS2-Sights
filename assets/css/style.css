@@ -21,6 +21,11 @@ html {
     margin-left: 5px;
 } 
 
+.navid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* ----------- hompage */
 
 #staycation {
