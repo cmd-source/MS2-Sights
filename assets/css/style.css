@@ -244,7 +244,6 @@ body {
 /* ----------- Footer */
 
 footer{
-    
     bottom: 0;
     height: 75px;
     width: 100%;
@@ -258,12 +257,29 @@ footer ul {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 li {
     display: inline;
+}
+
+li i {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding-top: 12px;
+    background-color: rgb(233, 132, 132);
+}
+
+li i:hover{
+    background-color: rgb(132, 188, 233);
+}
+
+li a {
     text-decoration: none;
+    display: inline;
+    width: 25px;
 }
 
 .footer-element {
