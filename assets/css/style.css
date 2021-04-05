@@ -187,22 +187,12 @@ textarea:hover {
     text-align: center;
 }
 
-#mapid2 {
-    margin-top: 50px;
-    margin-left: 275px;
-    margin-right: 275px;
-    margin-bottom: 75px;
-    height: 500px; 
-    text-align: center;
-}
-
 #tour{
     text-align: center;
     font-family: 'Akaya Telivigala', cursive;
     background-color: rgb(200, 207, 223);
     padding-bottom: 125px;
     padding-top: 0;
-    
 }
 
 img {

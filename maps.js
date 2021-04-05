@@ -34,7 +34,7 @@ var city = L.marker([51.8985, -8.4756], {icon: myIcon2}).bindPopup("<a href='htt
 var city2 = L.marker([53.3498, -6.2603], {icon: myIcon2}).bindPopup("<a href='https://en.wikipedia.org/wiki/Dublin' target='_blank'><b>Dublin City</b></a> <br>Dublin is Ireland's Capital and is an attraction in of itself. It has one Europes biggest park nearby the Phoneix Park.</br><img class='place' src='assets/img/dublin.jpg'>").openPopup();
 var city3 = L.marker([52.2593, -7.1101], {icon: myIcon2}).bindPopup ("<a href= 'https://en.wikipedia.org/wiki/Waterford' target='_blank'><b>Waterford City</b></a> <br> Waterford City is one of the country's oldest cities and is located in the southeast</br><img class='place' src='assets/img/waterfordcity.jfif'>").openPopup();
 var city4 = L.marker([53.2707, -9.0568], {icon: myIcon2}).bindPopup ("<a href= 'https://en.wikipedia.org/wiki/Galway' target='_blank'><b>Galway City</b></a> <br> Galway city is one of Ireland's smaller cities located in the west of Ireland</br><img class='place' src='assets/img/galwaycity.jfif'>").openPopup();
-var city5 = L.marker([52.6638, -8.6267], {icon: myIcon2}).bindPopup ("<a href= 'https://en.wikipedia.org/wiki/Limerick' target='_blank'><b>Limerick is Ireland's 3rd largest city and is located along the River Shannon.</br><img class='place' src='assets/img/limerickcity.jpg'>").openPopup();
+var city5 = L.marker([52.6638, -8.6267], {icon: myIcon2}).bindPopup ("<a href= 'https://en.wikipedia.org/wiki/Limerick' target='_blank'><b>Limerick City</b></a><br>Ireland's 3rd largest city and is located along the River Shannon.</br><img class='place' src='assets/img/limerickcity.jpg'>").openPopup();
 
 
 //hotels markers around Ireland
