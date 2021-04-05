@@ -71,6 +71,7 @@ The website uses the following technologies and libraries:
 - [Limerick city](https://www.limerick.ie/council/services/your-council/limerick-facts-and-figures/about-limerick)
 - [Cliffs of Moher](https://en.wikipedia.org/wiki/Cliffs_of_Moher)
 - [Croagh Patrick](https://commons.wikimedia.org/wiki/File:Croagh_Patrick_Irland@20160531_04.jpg)
+- [Giant's Causeway](https://commons.wikimedia.org/wiki/File:Giant%27s_Causeway_-_Bushmills,_Northern_Ireland,_UK_-_August_17,_2017_04.jpg)
 
 #### Map Icons From: [MapIcons](https://mapicons.mapsmarker.com/)
 
