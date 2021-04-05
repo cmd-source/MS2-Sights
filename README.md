@@ -4,13 +4,15 @@ There are 2 goals for this website. (1) For external users coming to the site to
 
 ## UX
 
-![Mockup](assets/img/mockup.JPG)
+![mockup](assets/img/mockup.JPG)
 
 This website is mainly for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
 
 - As an individual I want to be able to find an area in Ireland to travel to that I havent been to before. I want a range of choice and I want to see the experiences that others had before me.
 
 - As a family we want to find an area to travel to within Ireland with a range of choice. We want to see a preview of the experiences others have had before us and the images of the locations to see if it would be possible to take small children. We would also need family rates and the option of contacting the sites owners in order to ask additional questions that might arise.
+
+#### Wireframes:
 
 - [Homepage](assets/img/homepage.JPG)
 - [Places](assets/img/places.JPG)
@@ -39,9 +41,9 @@ The website uses the following technologies and libraries:
 
 - Bootstrap 4
 - JQuery 
-- Lightbox
-- EmailJS
-- LeafletJS
+- Lightbox API
+- EmailJS API
+- LeafletJS API
 
 
 ### Testing
@@ -52,9 +54,9 @@ The website uses the following technologies and libraries:
 - Logo [pixabay](https://cdn.pixabay.com/photo/2020/07/17/12/25/compass-5413948_1280.png)
 - Background [HD wallpaper](https://www.wallpaperflare.com/pink-and-blue-abstract-painting-digital-art-artwork-backgrounds-wallpaper-hjbwb)
 
-- [Quote#1] (https://www.freepik.com/premium-photo/smilong-man-holiday-portrait-guy_5905917.htm)
-- [Quote#2] (https://pxhere.com/en/photo/540857)
-- [Quote#3] (https://pxhere.com/en/photo/540853)
+- [Quote#1](https://www.freepik.com/premium-photo/smilong-man-holiday-portrait-guy_5905917.htm)
+- [Quote#2](https://pxhere.com/en/photo/540857)
+- [Quote#3](https://pxhere.com/en/photo/540853)
 
 #### Map Images:
 
@@ -62,20 +64,25 @@ The website uses the following technologies and libraries:
 - [Glendalough](https://www.flickr.com/photos/53400673@N08/15378477522)
 - [Killarney](https://commons.wikimedia.org/wiki/File:Old_Weir_Bridge,_Killarney_National_Park.jpg)
 - [Wexford](https://www.flickr.com/photos/michalo/2629154762)
-- [Waterford city](https://pixabay.com/photos/search/waterford/)
+- [Waterford city](https://pixabay.com/photos/travel-city-architecture-river-5205883/)
 - [Galway city](https://www.galwaytourism.ie/galway-city-landmarks/)
-- [Dublin city](https://www.osi.ie/blog/evolution-dublin-city/)
-- [Cork city](https://www.tripsavvy.com/top-things-to-do-in-cork-ireland-4685203)
+- [Dublin city](https://www.flickr.com/photos/danielmennerich/49376836072)
+- [Cork city](https://www.flickr.com/photos/infomatique/7586661082)
+- [Limerick city](https://www.limerick.ie/council/services/your-council/limerick-facts-and-figures/about-limerick)
+- [Cliffs of Moher](https://en.wikipedia.org/wiki/Cliffs_of_Moher)
+- [Croagh Patrick](https://commons.wikimedia.org/wiki/File:Croagh_Patrick_Irland@20160531_04.jpg)
 
-#### Map Icons From: [MapIcons] (https://mapicons.mapsmarker.com/)
+#### Map Icons From: [MapIcons](https://mapicons.mapsmarker.com/)
 
 #### Gallary Images:
 - [Gallway](https://travelinspires.org/destinations/galway-ireland-travel-guide/)
 - [Phoneix Park](https://pixabay.com/photos/ireland-dublin-phoenix-park-urban-2228961/)
+- [Dublin city](https://www.osi.ie/blog/evolution-dublin-city/)
+- [Cork city](https://www.tripsavvy.com/top-things-to-do-in-cork-ireland-4685203)
 
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 
-- Gallary with [lightbox] (https://lokeshdhakar.com/projects/lightbox2/)
+- Gallery with [lightbox](https://lokeshdhakar.com/projects/lightbox2/)
 
 - Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
 
