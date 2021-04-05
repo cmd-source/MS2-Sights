@@ -80,6 +80,10 @@ The website uses the following technologies and libraries:
 - [Phoneix Park](https://pixabay.com/photos/ireland-dublin-phoenix-park-urban-2228961/)
 - [Dublin city](https://www.osi.ie/blog/evolution-dublin-city/)
 - [Cork city](https://www.tripsavvy.com/top-things-to-do-in-cork-ireland-4685203)
+- [Glendalough](https://www.wallpaperflare.com/ireland-glendalough-upper-lake-landscape-nature-wicklow-wallpaper-gmnam)
+- [Giant's Causeway](https://commons.wikimedia.org/wiki/File:Giant%27s_Causeway_-_Bushmills,_Northern_Ireland,_UK_-_August_17,_2017_04.jpg)
+
+
 
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 
