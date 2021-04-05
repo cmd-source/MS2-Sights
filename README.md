@@ -58,16 +58,19 @@ The website uses the following technologies and libraries:
 
 #### Map Images:
 
-    - [Kilkenny Castle](https://pixabay.com/photos/kilkenny-castle-castle-kilkenny-3136336/)
-    - [Glendalough](https://www.flickr.com/photos/53400673@N08/15378477522)
-    - [Killarney](https://commons.wikimedia.org/wiki/File:Old_Weir_Bridge,_Killarney_National_Park.jpg)
-    - [Wexford] (https://www.flickr.com/photos/michalo/2629154762)
-    - [Waterford city](https://pixabay.com/photos/search/waterford/)
+- [Kilkenny Castle](https://pixabay.com/photos/kilkenny-castle-castle-kilkenny-3136336/)
+- [Glendalough](https://www.flickr.com/photos/53400673@N08/15378477522)
+- [Killarney](https://commons.wikimedia.org/wiki/File:Old_Weir_Bridge,_Killarney_National_Park.jpg)
+- [Wexford](https://www.flickr.com/photos/michalo/2629154762)
+- [Waterford city](https://pixabay.com/photos/search/waterford/)
+- [Galway city](https://www.galwaytourism.ie/galway-city-landmarks/)
+- [Dublin city](https://www.osi.ie/blog/evolution-dublin-city/)
+- [Cork city](https://www.tripsavvy.com/top-things-to-do-in-cork-ireland-4685203)
 
 #### Map Icons From: [MapIcons] (https://mapicons.mapsmarker.com/)
 
 #### Gallary Images:
-
+- [Gallway](https://travelinspires.org/destinations/galway-ireland-travel-guide/)
 - [Phoneix Park](https://pixabay.com/photos/ireland-dublin-phoenix-park-urban-2228961/)
 
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
