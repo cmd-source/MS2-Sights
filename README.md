@@ -82,7 +82,12 @@ The website uses the following technologies and libraries:
 - [Cork city](https://www.tripsavvy.com/top-things-to-do-in-cork-ireland-4685203)
 - [Glendalough](https://www.wallpaperflare.com/ireland-glendalough-upper-lake-landscape-nature-wicklow-wallpaper-gmnam)
 - [Giant's Causeway](https://commons.wikimedia.org/wiki/File:Giant%27s_Causeway_-_Bushmills,_Northern_Ireland,_UK_-_August_17,_2017_04.jpg)
-
+- [Cliffs Moher](https://www.wallpaperflare.com/pretty-cliffs-of-moher-county-clare-ireland-europe-wallpaper-brfxq)
+- [Wexford beach](https://commons.wikimedia.org/wiki/File:Ballinesker_Beach,_CoWexford.jpg)
+- [Killkenny](https://www.flickr.com/photos/harquail/40860528010)
+- [Sligo](https://westerndevelopment.ie/living/counties/sligo/)
+- [Achill](https://www.eurocampings.co.uk/ireland/connacht/dugort/achill-seal-caves-caravan-camping-park-112321/)
+- [Castle](https://wallpapersafari.com/w/mZcnlV)
 
 
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
