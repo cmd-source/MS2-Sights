@@ -46,7 +46,59 @@ The website uses the following technologies and libraries:
 - LeafletJS API
 
 
-### Testing
+## Testing
+
+### Homepage
+
+For Desktop/Tablet
+1. The hompage displays as intended with the locator marker expanding as the page loads 
+
+    ![locator](assets/img/markerlocator.JPG)
+
+2. The three experiences of previous users work correctly with the images expanding with a mouse hover and a shadow behind the image.
+3. When the user clicks on John's Experience, Tom's Experience or Emma's Experience a paragraph of their experience will dropdown.
+4. With a second click the paragraph will retract 
+
+For Mobile
+1. The hompage currectly does not display as intended. 
+2. The 3 experiences are stacking on top of each other and are falling below the backgroun image.
+
+### Places 
+
+For Desktop/Tablet
+1. The page displays as intended with the Leaflet API.
+2. The map can be interacted with showing Sights, Hotels and Cities in the top right hand corner.
+3. The map can zoom in and out on the top left hand corner.
+    ![map](assets/img/map.JPG)
+4. The prices for the guided city tours show underneath with contact details for booking.
+
+Mobile
+1. Currently the map does not properly fit the screen size. * Maybe a padding/margin issue
+2. The prices for the guided city tours show underneath with contact details for booking.
+
+For Desktop/Tablet
+1. The Gallery displays well on desktop.
+2. The images appear small with a grey filter over them until the user hovers over an image.
+    ![gal](assets/img/gal.JPG)
+3. When the user clicks on a photo the image expands and the user can then navigate through the photos.
+    ![gal2](assets/img/gal2.JPG)
+
+For mobile
+1. The gallary currently falls outside of the background and scews to the right on mobile.
+
+### Contact Page
+
+For Desktop/Tablet
+
+1. The contact page displays well on desktop.
+2. The inout fields call for the users information in order to submit an email.
+3. The input fields highlight when the user hovers over them.
+4. Once the user fills out the fields and clicks the submit button the information is sent using EmailJS (currently sends a mail to my personal mail)
+
+For Mobile
+1. The input fields display as intended on the mobile.
+2. Once the user submits the information is sent using EmailJS
+3. Currently the footer does not display as intended.
 
 - Content kept cutting through the footer, solved it by removing a bottom of zero from the footer
 
