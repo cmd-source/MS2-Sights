@@ -61,6 +61,7 @@ html {
 .name{
     text-align: center;
     transition: 0.5s;
+    margin-bottom: 50px;
 }
 
 .name:hover{
@@ -241,10 +242,10 @@ body {
 
 footer{
     bottom: 0;
-    height: 75px;
+    height: 175px;
     width: 100%;
     background-color: rgb(53, 65, 228);
-    margin-top: 100px;
+    margin-top: 50px;
     position: absolute;
     font-family:'Akaya Telivigala', cursive;
 }
@@ -252,7 +253,7 @@ footer{
 .ftr {
     width: 60%;
     text-align: center;
-    margin: 0 auto;
+    margin: 25px auto 0px auto;
 }
 
 footer ul {
@@ -267,15 +268,19 @@ li {
     display: inline;
 }
 
-li i {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    padding-top: 12px;
-    background-color: rgb(233, 132, 132);
+.sq {
+    padding: 1px;
 }
 
-li i:hover{
+li i {
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    padding-top: 11px;
+    background-color: rgb(226, 168, 168);
+}
+
+li i:hover {
     background-color: rgb(132, 188, 233);
 }
 
@@ -283,6 +288,7 @@ li a {
     text-decoration: none;
     display: inline;
     width: 25px;
+    color: rgb(51, 49, 49);
 }
 
 .footer-element {
