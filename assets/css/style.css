@@ -61,7 +61,11 @@ html {
 .name{
     text-align: center;
     transition: 0.5s;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.quotes{
+    margin-bottom: 275px;
 }
 
 .name:hover{
@@ -93,9 +97,13 @@ section h4 {
 .contact {
     position: relative;
     text-align: center;
-    border: 1px solid grey;
+
     width: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 290px;
+}
+
+.cont {
+    border: 1px solid grey;
 }
 
 .contact-element {
@@ -149,7 +157,7 @@ textarea:hover {
 .gallary {
     width: 70%;
     text-align: center;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 275px auto;
 }
 
 .gallary img {
@@ -172,8 +180,11 @@ textarea:hover {
 #places h4 {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 35px;
-    padding-top: 50px;
     text-align: center;
+}
+
+#places{
+    margin-bottom: 275px;
 }
 
 #mapid { 
@@ -233,7 +244,8 @@ img {
 
 footer{
     bottom: 0;
-    height: 175px;
+    padding: 15px;
+    height: auto;
     width: 100%;
     background-color: rgb(53, 65, 228);
     margin-top: 50px;
@@ -241,27 +253,31 @@ footer{
     font-family:'Akaya Telivigala', cursive;
 }
 
-.ftr {
-    width: 60%;
+#ftr {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-md-3 h5{
     text-align: center;
-    margin: 25px auto 0px auto;
 }
 
 footer ul {
-    color: #fff;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration: none
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+.social{
+    text-align: center;
 }
 
 li {
     display: inline;
 }
 
-.sq {
-    padding: 1px;
-}
 
 li i {
     height: 35px;
