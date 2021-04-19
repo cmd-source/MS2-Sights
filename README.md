@@ -73,7 +73,7 @@ For Desktop/Tablet
 4. The prices for the guided city tours show underneath with contact details for booking.
 
 Mobile
-1. Currently the map does not properly fit the screen size. * Maybe a padding/margin issue
+1. Originally the map did not position correctly in the center due to a media query which has been corrected with CSS margin.
 2. The prices for the guided city tours show underneath with contact details for booking.
 
 For Desktop/Tablet

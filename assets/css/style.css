@@ -178,8 +178,6 @@ textarea:hover {
 
 #mapid { 
     margin-top: 5px;
-    margin-left: 275px;
-    margin-right: 275px;
     height: 500px; 
     text-align: center;
 }
@@ -204,25 +202,18 @@ img {
 
 @media screen and (max-width: 1250px) {
 
-    #places {
-        width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+
     #mapid {
         width: 100%;
-        margin-top: 40px;
-        margin-left: 0px;
+        margin-top: 10px;
         margin-right: 0px;
     }
 }
 
 /* ----------- page body*/
 
-body {
-    background-image: url("../img/bg-img.jpg");
-    background-repeat: no-repeat;
-    background-color: #cccccc;
+.body {
+    background-color: #a7aeda;
     min-height: calc(100vh -110px -75px);
     padding-bottom: 50px;
     margin-bottom: 50px;
