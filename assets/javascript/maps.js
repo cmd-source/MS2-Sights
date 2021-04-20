@@ -71,3 +71,7 @@ var overlays = {
 
 L.control.layers(null, overlays).addTo(mymap)
     
+
+// For the city tours underneath the map
+
+document.getElementsByClassName(".htour").click(function() { this.next("p").hide()})

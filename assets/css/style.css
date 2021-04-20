@@ -193,6 +193,23 @@ textarea:hover {
     text-align: center;
 }
 
+.htour {
+    background-color: #4c8fd1;
+    border-radius: 5px;
+}
+
+.htour a {
+    text-decoration: none;
+    color: black;
+}
+
+.htour:hover {
+    color: whitesmoke;
+    background-color: darkgrey;
+    border: 1px solid darkslateblue;
+    transition: 0.5s;
+}
+
 #bttn {
     text-align: center;
 }
