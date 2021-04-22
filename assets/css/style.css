@@ -104,12 +104,12 @@ html {
 .exp {
     padding-top: 5px;
     padding-bottom: 5px;
-    color:#212529;
+    color:#838a91;
 }
 
 .exp:hover {
     text-decoration: underline;
-    text-decoration-color: #212529;
+    text-decoration-color: rgb(134, 120, 120);
 }
 
 /* ----------- contact*/
@@ -253,7 +253,6 @@ textarea:hover {
 #tour{
     text-align: center;
     font-family: 'Akaya Telivigala', cursive;
-    background-color: rgb(200, 207, 223);
     padding-bottom: 125px;
     padding-top: 80px;
 }
@@ -295,8 +294,9 @@ img {
     margin-bottom: 50px;
 }
 
-#body{
-    background-color: red;
+.bodydarkmode {
+    background-color: black;
+    color: white;
 }
 
 #quotes{
@@ -325,6 +325,7 @@ footer{
 #ftr {
     margin-left: 0px;
     margin-right: 0px;
+    color: black;
 }
 
 .col-md-3 h5{
