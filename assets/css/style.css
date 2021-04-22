@@ -227,15 +227,20 @@ textarea:hover {
     font-family: 'Akaya Telivigala', cursive;
     background-color: rgb(200, 207, 223);
     padding-bottom: 125px;
-    padding-top: 20px;
+    padding-top: 80px;
+}
+
+#tour div{
+    padding-bottom: 48px;
 }
 
 #h5 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #booking {
-    padding-top: 40px;
+    position: relative;
+    padding-top: 70px;
 }
 
 img {

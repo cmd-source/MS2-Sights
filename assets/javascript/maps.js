@@ -73,5 +73,13 @@ L.control.layers(null, overlays).addTo(mymap)
     
 
 // For the city tours underneath the map
+// Got help on this from https://www.youtube.com/watch?v=WhU38HV-Iu8&t=19s
 
-document.getElementsByClassName(".htour").click(function() { this.next("p").hide()})
+$(document).ready(function () {
+    
+    $(".htour").click(function (e) {
+        e.preventDefault();
+        $(this).next("p").slideToggle('slow');
+    })
+    
+});
