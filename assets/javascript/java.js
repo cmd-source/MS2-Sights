@@ -37,6 +37,9 @@ $(document).ready(function () {
         transition: "2s"
     })
 
+    $(".toggle-btn").click(function () {
+        this.classList.toggle('active')
+    });
 
 });
 

@@ -14,6 +14,33 @@ html {
 
 /* ----------- Header */
 
+/*Desaign for the toggle night/day was taken from https://www.youtube.com/watch?v=ZZoA3MjgASQ*/
+
+.toggle-btn {
+    width: 80px;
+    height: 40px;
+    background: grey;
+    border-radius: 30px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.toggle-btn.active {
+    background-color:#4c8fd1;
+}
+
+.inner-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.toggle-btn.active > .inner-circle {
+    margin-left: 40px;
+}
+
 .navbar-brand img {
     height: 80px;
     width: 80px;
@@ -27,6 +54,7 @@ html {
 }
 
 /* ----------- hompage */
+
 
 #staycation {
     text-align: center;
@@ -262,10 +290,13 @@ img {
 /* ----------- page body*/
 
 .body {
-    background-color: #a7aeda;
     min-height: calc(100vh -110px -75px);
     padding-bottom: 50px;
     margin-bottom: 50px;
+}
+
+#body{
+    background-color: red;
 }
 
 #quotes{
