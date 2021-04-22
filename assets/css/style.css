@@ -196,6 +196,9 @@ textarea:hover {
 .htour {
     background-color: #4c8fd1;
     border-radius: 5px;
+    width: 70%;
+    height: 30%;
+    border: 1px solid black;
 }
 
 .htour a {
@@ -210,6 +213,11 @@ textarea:hover {
     transition: 0.5s;
 }
 
+.p {
+    width: auto;
+    height: 160px;
+}
+
 #bttn {
     text-align: center;
 }
@@ -219,7 +227,15 @@ textarea:hover {
     font-family: 'Akaya Telivigala', cursive;
     background-color: rgb(200, 207, 223);
     padding-bottom: 125px;
-    padding-top: 0;
+    padding-top: 20px;
+}
+
+#h5 {
+    padding-bottom: 20px;
+}
+
+#booking {
+    padding-top: 40px;
 }
 
 img {
