@@ -46,7 +46,11 @@ html {
     width: 80px;
     border-radius: 50px;
     margin-left: 5px;
-} 
+}
+
+#navbarNav ul {
+    padding-right: 30px;
+}
 
 .navid {
     padding-left: 20px;
