@@ -228,14 +228,10 @@ textarea:hover {
 .htour {
     background-color: #4c8fd1;
     border-radius: 5px;
-    width: 70%;
-    height: 30%;
+    width: 250px;
+    height: 70px;
     border: 1px solid black;
-}
 
-.htour a {
-    text-decoration: none;
-    color: black;
 }
 
 .htour:hover {
