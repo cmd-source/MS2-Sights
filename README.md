@@ -8,9 +8,14 @@ There are 2 goals for this website. (1) For external users coming to the site to
 
 This website is mainly for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
 
-- As an individual I want to be able to find an area in Ireland to travel to that I havent been to before. I want a range of choice and I want to see the experiences that others had before me.
+- As an individual I want to be able to find an area in Ireland to travel to that I havent been to before. 
+- I want a range of choice and I want to see the experiences that others had before me.
+- I would want to be able to contact the sites owners easily
 
-- As a family we want to find an area to travel to within Ireland with a range of choice. We want to see a preview of the experiences others have had before us and the images of the locations to see if it would be possible to take small children. We would also need family rates and the option of contacting the sites owners in order to ask additional questions that might arise.
+- As a family we want to find an area to travel to within Ireland with a range of choice. 
+- We want to see a preview of the experiences others have had before us and the images of the locations to see if it would be possible to take small children.
+- We would also need family rates and the option of contacting the sites owners in order to ask additional questions that might arise.
+- We would want to be able to contact the sites owners easily 
 
 #### Wireframes:
 
@@ -22,10 +27,10 @@ This website is mainly for people who are in Ireland who want to travel but cann
 ## Features
 
 - A navbar for desktop that collapses into a hamburger icon for the mobile version, the narbar includes a dark mode as well as page links.
-- On the Homepage 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
-- On the Places page there is maps using LeafletJS API's. The map can be filtered to show sights, cities and hotels.
-- On the Gallary there are 12 images which can be rotated through when click on by the user. The Gallary was made with the Lightbox API.
-- On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API.
+- On the Homepage, there are 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
+- On the Places page there is maps using LeafletJS API's. The map can be filtered to show sights, cities and hotels. It also has 4 city tours which can be clicked on to expand the info.
+- On the Gallary there are 12 images which can be rotated through when clicked on by the user. The Gallary was made with the Lightbox API.
+- On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API. (Sends an email to my personal email address at the moment)
 
 #### Features Left to Implement
 
