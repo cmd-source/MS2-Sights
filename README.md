@@ -147,7 +147,7 @@ For Mobile
 #### Gallery API
 - Gallery with [lightbox](https://lokeshdhakar.com/projects/lightbox2/)
 
-####Navbar
+#### Navbar
 - Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
 
 #### Email function
