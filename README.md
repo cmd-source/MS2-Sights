@@ -1,6 +1,6 @@
 # Ireland's Sights
 
-There are 2 goals for this website. (1) For external users coming to the site to be able to plan their next stay in Ireland. (2) To get the users coming to the website to book a travel/tour guide package of Dublin City. 
+There are 2 goals for this website. (1) For external users coming to the site to be able to plan their next stay within Ireland. (2) To get the users coming to the website to book a travel/tour guide package of Dublin, Wexford, Cork or Galway city. 
 
 ## UX
 
@@ -21,10 +21,10 @@ This website is mainly for people who are in Ireland who want to travel but cann
 
 ## Features
 
-- A navbar for desktop that collapses into a hamburger icon for the mobile version.
+- A navbar for desktop that collapses into a hamburger icon for the mobile version, the narbar includes a dark mode as well as page links.
 - On the Homepage 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
-- On the Places page there are 2 maps using LeafletJS API's. The first shows locations throughout Ireland, the second shows Dubin City. Both maps can be interacted with.
-- On the Gallary there are 9 images which can be rotated through when click on by the user. The Gallary was made with the Lightbox API.
+- On the Places page there is maps using LeafletJS API's. The map can be filtered to show sights, cities and hotels.
+- On the Gallary there are 12 images which can be rotated through when click on by the user. The Gallary was made with the Lightbox API.
 - On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API.
 
 #### Features Left to Implement
@@ -33,7 +33,7 @@ This website is mainly for people who are in Ireland who want to travel but cann
 
 ## Technologies Used
 
-The website uses the following technologies and libraries:
+The website uses the following technologies, libraries and API's:
 
 - HTML5 for the website strcuture.
 - CSS3 for the websites appearence.
@@ -60,8 +60,8 @@ For Desktop/Tablet
 4. With a second click the paragraph will retract 
 
 For Mobile
-1. The hompage currectly does not display as intended. 
-2. The 3 experiences are stacking on top of each other and are falling below the backgroun image.
+1. Originally the hompage currectly did not display as intended. 
+2. The 3 experiences were stacking on top of each other and were falling below the backgroun image. This was corrected with some margin/padding. Background image was also removed.
 
 ### Places 
 
@@ -70,11 +70,12 @@ For Desktop/Tablet
 2. The map can be interacted with showing Sights, Hotels and Cities in the top right hand corner.
 3. The map can zoom in and out on the top left hand corner.
     ![map](assets/img/map.JPG)
-4. The prices for the guided city tours show underneath with contact details for booking.
+4. A desription of the city tours extendeds when the user clicks on each.
+5. The prices for the guided city tours show underneath with contact details for booking.
 
 Mobile
 1. Originally the map did not position correctly in the center due to a media query which has been corrected with CSS margin.
-2. The prices for the guided city tours show underneath with contact details for booking.
+2. The prices and city tours show underneath with contact details for booking.
 
 For Desktop/Tablet
 1. The Gallery displays well on desktop.
@@ -84,27 +85,25 @@ For Desktop/Tablet
     ![gal2](assets/img/gal2.JPG)
 
 For mobile
-1. The gallary currently falls outside of the background and scews to the right on mobile.
+1. The gallary originally fell outside of the background and scews to the right on mobile. This has been finxed with some padding/margin CSS. 
+2. Background image has been removed since.
 
 ### Contact Page
 
 For Desktop/Tablet
 
 1. The contact page displays well on desktop.
-2. The inout fields call for the users information in order to submit an email.
+2. The input fields call for the users information in order to submit an email.
 3. The input fields highlight when the user hovers over them.
 4. Once the user fills out the fields and clicks the submit button the information is sent using EmailJS (currently sends a mail to my personal mail)
 
 For Mobile
 1. The input fields display as intended on the mobile.
-2. Once the user submits the information is sent using EmailJS
-3. Currently the footer does not display as intended.
-
-- Content kept cutting through the footer, solved it by removing a bottom of zero from the footer
+2. Once the user submits the information it is sent using EmailJS
+3. Oringianlly the footer did not display as intended. It has since been removed and completely redone.
 
 ## Credts:
 - Logo [pixabay](https://cdn.pixabay.com/photo/2020/07/17/12/25/compass-5413948_1280.png)
-- Background [HD wallpaper](https://www.wallpaperflare.com/pink-and-blue-abstract-painting-digital-art-artwork-backgrounds-wallpaper-hjbwb)
 
 - [Quote#1](https://www.freepik.com/premium-photo/smilong-man-holiday-portrait-guy_5905917.htm)
 - [Quote#2](https://pxhere.com/en/photo/540857)
@@ -142,16 +141,22 @@ For Mobile
 - [Castle](https://wallpapersafari.com/w/mZcnlV)
 
 
+#### MAP API
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 
+#### Gallery API
 - Gallery with [lightbox](https://lokeshdhakar.com/projects/lightbox2/)
 
+####Navbar
 - Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
 
 #### Email function
-
- - This was taken from the Code Institutes lesson under: Putting it all together > Sending Emails Using EmailJS > Sending Emails!
+ - Email from [EMailJS] (https://www.emailjs.com/)
+ - This was set up from the Code Institutes lesson under: Putting it all together > Sending Emails Using EmailJS > Sending Emails!
 
 ### Acknowledgements:
 - Got help setting the footer to the bottom of the page on (https://stackoverflow.com/questions/3443606/make-footer-stick-to-bottom-of-page-correctly)
 - Got help setting the text-area with (https://www.tutorialspoint.com/How-to-Create-a-Multi-line-Text-Input-Text-Area-In-HTML#:~:text=To%20create%20a%20multi%2Dline%20text%20input%2C%20use%20the%20HTML,input%20text%20over%20multiple%20rows.&text=Specifies%20that%20on%20page%20load%20the%20text%20area%20should%20automatically%20get%20focus.)
+- Desaign for the toggle night/day darkmode was taken from https://www.youtube.com/watch?v=ZZoA3MjgASQ*/ & https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
+- Design on toggling the hompage experiences was taken from https://www.youtube.com/watch?v=WhU38HV-Iu8&t=380s
+- Help on adding layers to the Leaflet map was taken from https://www.youtube.com/watch?v=Nl7KxXHpl5o&t=124s 
