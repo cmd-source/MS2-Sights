@@ -289,7 +289,7 @@ img {
 /* ----------- page body*/
 
 .body {
-    min-height: calc(100vh -110px -75px);
+    min-height: calc(100vh);
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
