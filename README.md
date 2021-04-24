@@ -75,7 +75,7 @@ For Desktop/Tablet
 2. The map can be interacted with showing Sights, Hotels and Cities in the top right hand corner.
 3. The map can zoom in and out on the top left hand corner.
     ![map](assets/img/map.JPG)
-4. A desription of the city tours extendeds when the user clicks on each.
+4. A description of the city tours extendeds when the user clicks on each.
 5. The prices for the guided city tours show underneath with contact details for booking.
 
 Mobile
@@ -107,6 +107,26 @@ For Mobile
 2. Once the user submits the information it is sent using EmailJS
 3. Oringianlly the footer did not display as intended. It has since been removed and completely redone.
 
+## Testing with the HTML, CSS and Javascript Validators
+
+Testing with the HTML/CSS validators showed a few minor errors that were then corrected.
+
+![HTML](assets/img/htmlvalidator.JPG)
+
+![CSS](assets/img/cssvalidator.JPG)
+
+    - The lightbox CSS was not passed in the validator as it was not written by me but is required when using the Lightbox API. I have attributed the credit for this to Lightbox.
+
+However testing with the JSHint validator highlighted issues that I couldnt change as the code was fufilling the functions it was intended for.
+
+    - The below issues were highlighted even though the code provides the correct functionality.
+![emailjs](assets/img/emailjs.JPG)
+
+    - The below two issues were highlighted when using the Leaflet API even though the functionality requires L, $ was needed to provide toggling for the buttons on the page.
+![maps](assets/img/mapsjs.JPG)
+
+    - The below issue was highlighted for the hompage javascript, but the $ was needed to provide functionality with JQuery. The javascript functions as intended for the homepage.
+![hompage](assets/img/java.JPG)
 ## Credts:
 - Logo [pixabay](https://cdn.pixabay.com/photo/2020/07/17/12/25/compass-5413948_1280.png)
 

@@ -13,7 +13,7 @@ $(document).ready(function () {
     }).hover(function () {
         $(this).css("text-decoration", "underline");
     }, function () {
-        $(this).css("text-decoration", "none")
+        $(this).css("text-decoration", "none");
     });
 
     $(".name a").click(function (e) {
@@ -29,18 +29,18 @@ $(document).ready(function () {
 
     $(".para").css({
         backgroundColor: "rgba(134, 120, 120, 0.5)"
-    })
+    });
 
     $("#marker a i").css({
         transform: "scale(3)",
         color: "red",
         transition: "2s"
-    })
+    });
 
     //toggle button created with the help of https://www.youtube.com/watch?v=ZZoA3MjgASQ
     //toggle button created with the help of thttps://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
     $(".toggle-btn").click(function () {
-        this.classList.toggle('active')
+        this.classList.toggle('active');
 
         var element = document.body;
             element.classList.toggle("bodydarkmode");

@@ -65,11 +65,11 @@ var overlays = {
     "Sights" : sights,
     "Hotels" : hotel,
     "Cities" : cities,
-}
+};
 
 // adding in the layer control
 
-L.control.layers(null, overlays).addTo(mymap)
+L.control.layers(null, overlays).addTo(mymap);
     
 
 // For the city tours underneath the map
