@@ -30,16 +30,21 @@ Most of the original planning for the website has stayed in place. The general i
 
 Once they were on the Places page they could interacte with the map of Ireland to check out sights, cities and hotels. On that same page underneath would be the agency tour packages for city tours.
  ![Places](assets/img/places.JPG)
+
+The gallery page was intended to present a visual image of the range of sights there are to see around Ireland. It was later decided to make the gallery more interactive with the Lightbox API. This allowed the user to select an image blow it up and scroll through them. 
  ![Gallary](assets/img/gall.JPG)
+
+The contact page was created with the idea of giving users the an ability to not only make a booking but to also provide a channel to give needed feedback to site owners.
  ![Contact](assets/img/contact.JPG)
 
 ## Features
 
 - A navbar for desktop that collapses into a hamburger icon for the mobile version, the narbar includes a dark mode as well as page links.
-- On the Homepage, there are 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
-- On the Places page there is maps using LeafletJS API's. The map can be filtered to show sights, cities and hotels. It also has 4 city tours which can be clicked on to expand the info.
+- On the Homepage, there is a clickable locator which expands and there are 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
+- On the Places page there is maps using LeafletJS API. The map can be filtered to show sights, cities and hotels. It also has 4 city tours which can be clicked on to expand and collapse the info.
 - On the Gallary there are 12 images which can be rotated through when clicked on by the user. The Gallary was made with the Lightbox API.
 - On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API. (Sends an email to my personal email address at the moment)
+- Onthe bottom of all pages there is a responsive footer.
 
 #### Features Left to Implement
 
@@ -75,7 +80,7 @@ For Desktop/Tablet
 
 For Mobile
 1. Originally the hompage currectly did not display as intended. 
-2. The 3 experiences were stacking on top of each other and were falling below the backgroun image. This was corrected with some margin/padding. Background image was also removed.
+2. The 3 experiences were stacking on top of each other and were falling below the footer and backgroung image. This was corrected with some CSS tweeting of the margin/padding and height, boostraps grid also helped. Background image was also removed.
 
 ### Places 
 
@@ -89,7 +94,9 @@ For Desktop/Tablet
 
 Mobile
 1. Originally the map did not position correctly in the center due to a media query which has been corrected with CSS margin.
-2. The prices and city tours show underneath with contact details for booking.
+2. Occasionally I have noticed that sometimes it takes a few clicks on a sight,city or hotel marker in order for the information of that marker to display. I have not yet at this time worked out why this is.
+3. On mobile both the city tour button and the paragraph underneath it would collapse together originally when clicked a second time. Although I couldnt pinpoint the problem, I ended up using Jquery code from the homepage "experience" to give the same functionality I wanted.
+4. The prices and city tours show underneath with contact details for booking.
 
 For Desktop/Tablet
 1. The Gallery displays well on desktop.
@@ -97,17 +104,19 @@ For Desktop/Tablet
     ![gal](assets/img/gal.JPG)
 3. When the user clicks on a photo the image expands and the user can then navigate through the photos.
     ![gal2](assets/img/gal2.JPG)
+4. Oringianlly my left/right arrows and close button were missing, but this was corrected with a file path update.
 
 For mobile
 1. The gallary originally fell outside of the background and scews to the right on mobile. This has been finxed with some padding/margin CSS. 
-2. Background image has been removed since.
+2. Background image has been removed from the beginning as it didnt present well once the gallery images were displayed in one column.
 
 ### Contact Page
 
 For Desktop/Tablet
 
 1. The contact page displays well on desktop.
-2. The input fields call for the users information in order to submit an email.
+2. The input fields call for the users information in order to submit an email and will not allow submission unless info is entered.
+![email](assets/img/email.JPG)
 3. The input fields highlight when the user hovers over them.
 4. Once the user fills out the fields and clicks the submit button the information is sent using EmailJS (currently sends a mail to my personal mail)
 
@@ -116,7 +125,7 @@ For Mobile
 2. Once the user submits the information it is sent using EmailJS
 3. Oringianlly the footer did not display as intended. It has since been removed and completely redone.
 
-## Testing On Different Devices:
+#### Testing On Different Devices:
 1. 24 inche dell monitor
 2. 16 inche lenovo laptop
 3. Galaxy S5
@@ -127,8 +136,7 @@ For Mobile
 8. Galaxy Fold
 
 
-
-## Testing with the HTML, CSS and Javascript Validators
+#### Testing with the HTML, CSS and Javascript Validators
 
 Testing with the HTML/CSS validators showed a few minor errors that were then corrected.
 
@@ -136,21 +144,33 @@ Testing with the HTML/CSS validators showed a few minor errors that were then co
 
 ![CSS](assets/img/cssvalidator.JPG)
 
-- The lightbox CSS was not passed in the validator as it was not written by me but is required when using the Lightbox API. I have attributed the credit for this to Lightbox.
+- The Lightbox CSS was not passed in the validator as it was not written by me but is required when using the Lightbox API. I have attributed the credit for this to Lightbox and the file is clearly identified.
 
-However testing with the JSHint validator highlighted issues that I couldnt change as the code was fufilling the functions it was intended for.
+Testing with the JSHint validator highlighted issues that I couldnt change as the code was fufilling the functions it was intended for.
 
-- The below issues were highlighted even though the code provides the correct functionality.
+- The below issues were highlighted even though the code provides the correct functionality, I believe they are very minor issues.
 
 ![emailjs](assets/img/emailjs.JPG)
 
-- The below two issues were highlighted when using the Leaflet API even though the functionality requires L, $ was needed to provide toggling for the buttons on the page.
-
 ![maps](assets/img/mapsjs.JPG)
 
-- The javascript for my hompage passed without any issues.
-
 ![hompage](assets/img/java.JPG)
+
+The Lightbox Javascript was not passed in the validator as it was not written by me but is required when using the Lightbox API. I have attributed the credit for this to Lightbox and the file is clearly identified.
+
+### Deployment
+
+#### How to deploy this project:
+1. Create a github account.
+2. Install the Gitpod extention.
+3. Navigate to the repository where the project is stored.
+4. Click on the green Gitpod button to create a workplace where the project can be worked on.
+
+#### How to clone and deploy this project:
+1. Navigate to the repository where the project is stored.
+2. Click on the Code button which will give the option to download the contect and the url.
+3. Copy the url.
+4. In your chosen IDE in the terminal type "git clone (followed by the copied url).
 
 ## Credts:
 - Logo [pixabay](https://cdn.pixabay.com/photo/2020/07/17/12/25/compass-5413948_1280.png)
@@ -201,7 +221,7 @@ However testing with the JSHint validator highlighted issues that I couldnt chan
 - Navbar from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
 
 #### Email function
- - Email from [EMailJS] (https://www.emailjs.com/)
+ - Email from [EMailJS](https://www.emailjs.com/)
  - This was set up from the Code Institutes lesson under: Putting it all together > Sending Emails Using EmailJS > Sending Emails!
 
 ### Acknowledgements:
