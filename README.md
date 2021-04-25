@@ -24,11 +24,14 @@ This website is for people who are in Ireland who want to travel but cannot trav
     - Finally I want a short About Us section in the footer to provide clarity on the purpose of the website. (In the footer)
 
 #### Wireframes:
-    
-- [Homepage](assets/img/homepage.JPG)
-- [Places](assets/img/places.JPG)
-- [Gallary](assets/img/gall.JPG)
-- [Contact](assets/img/contact.JPG)
+
+Most of the original planning for the website has stayed in place. The general idea for the website was to have users land on the homapage and see the positive expereinces from previous users. They would then be incited to the Places page with the location marker which would expand when the hompage loaded, indicating it was clickable.   
+ ![Homepage](assets/img/homepage.JPG)
+
+Once they were on the Places page they could interacte with the map of Ireland to check out sights, cities and hotels. On that same page underneath would be the agency tour packages for city tours.
+ ![Places](assets/img/places.JPG)
+ ![Gallary](assets/img/gall.JPG)
+ ![Contact](assets/img/contact.JPG)
 
 ## Features
 
