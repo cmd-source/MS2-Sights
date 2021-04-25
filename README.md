@@ -1,6 +1,6 @@
 # Ireland's Sights
 
-There are 2 goals for this website. (1) For users coming to the site to be able to plan their next stay within Ireland and to be able to book guided city tours. (2) To get the users coming to the website to book a travel/tour guide package of Dublin, Wexford, Cork or Galway city. 
+There are 2 goals for this website. (1) For users coming to the site to be able to plan their next stay within Ireland. (2) For the owners of the site to get the users coming to the website to book a travel/tour guide package of Dublin, Wexford, Cork or Galway city. 
 
 ## UX
 
@@ -64,7 +64,6 @@ The website uses the following technologies, libraries and API's:
 - EmailJS API
 - LeafletJS API
 
-
 ## Testing
 
 ### Homepage
@@ -77,6 +76,7 @@ For Desktop/Tablet
 2. The three experiences of previous users work correctly with the images expanding with a mouse hover and a shadow behind the image.
 3. When the user clicks on John's Experience, Tom's Experience or Emma's Experience a paragraph of their experience will dropdown.
 4. With a second click the paragraph will retract 
+    ![home](assets/img/home.JPG)
 
 For Mobile
 1. Originally the hompage currectly did not display as intended. 
@@ -97,6 +97,10 @@ Mobile
 2. Occasionally I have noticed that sometimes it takes a few clicks on a sight,city or hotel marker in order for the information of that marker to display. I have not yet at this time worked out why this is.
 3. On mobile both the city tour button and the paragraph underneath it would collapse together originally when clicked a second time. Although I couldnt pinpoint the problem, I ended up using Jquery code from the homepage "experience" to give the same functionality I wanted.
 4. The prices and city tours show underneath with contact details for booking.
+5. Currently there is still a small bug I'm investigating. There is a very thin gap when I pull the screen to the right a shown below.
+    ![placesbug](assets/img/placesbug.JPG)
+
+### Gallery
 
 For Desktop/Tablet
 1. The Gallery displays well on desktop.
@@ -109,6 +113,8 @@ For Desktop/Tablet
 For mobile
 1. The gallary originally fell outside of the background and scews to the right on mobile. This has been finxed with some padding/margin CSS. 
 2. Background image has been removed from the beginning as it didnt present well once the gallery images were displayed in one column.
+3. Currently there is still a small bug I'm investigating. There is a very thin gap when I pull the screen to the right a shown below.
+    ![gallerybug](assets/img/gallerybug)
 
 ### Contact Page
 
@@ -134,7 +140,6 @@ For Mobile
 6. iPhone X 
 7. iPad
 8. Galaxy Fold
-
 
 #### Testing with the HTML, CSS and Javascript Validators
 
