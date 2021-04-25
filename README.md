@@ -1,13 +1,22 @@
-# Ireland's Sights
+![mockup](assets/img/mockup.JPG)
+
+# Second Milestone Project - Ireland's Sights
+
+## Table of Contents
+1. UX
+2. Features
+3. Technologies Used
+4. Testing 
+5. Deployment
+6. Credits and Acknowledgements
 
 There are 2 goals for this website. (1) For users coming to the site to be able to plan their next stay within Ireland. (2) For the owners of the site to get the users coming to the website to book a travel/tour guide package of Dublin, Wexford, Cork or Galway city. 
 
 ## UX
-
-![mockup](assets/img/mockup.JPG)
-
 This website is for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
 
+
+#### User Stories
 - As a user coming to the site I want 
     - I want to see the experiences that others had before me.
     - I want to see the choice of the sights around Ireland.
@@ -25,7 +34,6 @@ This website is for people who are in Ireland who want to travel but cannot trav
     - Finally I want a short About Us section in the footer to provide clarity on the purpose of the website. (In the footer)
 
 #### Wireframes:
-
 Most of the original planning for the website has stayed in place. The general idea for the website was to have users land on the homapage and see the positive expereinces from previous users. They would then be incited to the Places page with the location marker which would expand when the hompage loaded, indicating it was clickable.   
  ![Homepage](assets/img/homepage.JPG)
 
@@ -38,21 +46,31 @@ The gallery page was intended to present a visual image of the range of sights t
 The contact page was created with the idea of giving users the an ability to not only make a booking but to also provide a channel to give needed feedback to site owners.
  ![Contact](assets/img/contact.JPG)
 
-## Features
+#### Design
+The theme for the design is very plane for this website, originally a number of background images were tried but they all destracted from the core content. A plane white background that can alter to dark mode allows for focus on the core content. When an individual thinks about a trip or travelling they usually have an anticipated, playful and relaxing feeling. With that in mind the following design choices were selected.
 
+#### Styling
+The font-family: Akaya Telivigala and cursive were selected to give a playful and relaxed feeling to the website.
+
+#### Images
+The images used are ones the elicit positive emotions. The user expereinces are happy individuals enjoying their time and the images slected for the gallery give a sense of awe and wonder of the sights around Ireland.
+[exp](assets/img/exp.JPG)
+
+The icons used for the map are very distint and make it very obvious on the differnce between hotels, cities and sights on first glance.
+[map](assets/img/icons.JPG)
+
+## Features
 - A navbar for desktop that collapses into a hamburger icon for the mobile version, the narbar includes a dark mode as well as page links.
-- On the Homepage, there is a clickable locator which expands and there are 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
+- On the Homepage, there is a clickable locator which expands, there is a "Good evening/Good morning message" depending on the time of day and there are 3 previous users experiences with some javascript to open their testimonies when clicked on, which collapses back down when clicked again.
 - On the Places page there is maps using LeafletJS API. The map can be filtered to show sights, cities and hotels. It also has 4 city tours which can be clicked on to expand and collapse the info.
 - On the Gallary there are 12 images which can be rotated through when clicked on by the user. The Gallary was made with the Lightbox API.
 - On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API. (Sends an email to my personal email address at the moment)
 - Onthe bottom of all pages there is a responsive footer.
 
 #### Features Left to Implement
-
 - An option for the user to book the dates they want would be useful for future developement and could probably be achieved through an API.
 
 ## Technologies Used
-
 The website uses the following technologies, libraries and API's:
 
 - HTML5 for the website strcuture.
@@ -68,7 +86,6 @@ The website uses the following technologies, libraries and API's:
 ## Testing
 
 ### Homepage
-
 For Desktop/Tablet
 1. The hompage displays as intended with the locator marker expanding as the page loads 
 
@@ -84,7 +101,6 @@ For Mobile
 2. The 3 experiences were stacking on top of each other and were falling below the footer and backgroung image. This was corrected with some CSS tweeting of the margin/padding and height, boostraps grid also helped. Background image was also removed.
 
 ### Places 
-
 For Desktop/Tablet
 1. The page displays as intended with the Leaflet API.
 2. The map can be interacted with showing markers for Sights, Hotels and Cities in the top right hand corner. These markers are clickable.
@@ -102,7 +118,6 @@ Mobile
     ![placesbug](assets/img/placesbug.JPG)
 
 ### Gallery
-
 For Desktop/Tablet
 1. The Gallery displays well on desktop.
 2. The images appear small with a grey filter over them until the user hovers over an image.
@@ -118,7 +133,6 @@ For mobile
     ![gallerybug](assets/img/gallerybug.JPG)
 
 ### Contact Page
-
 For Desktop/Tablet
 
 1. The contact page displays well on desktop.
@@ -143,7 +157,6 @@ For Mobile
 8. Galaxy Fold
 
 #### Testing with the HTML, CSS and Javascript Validators
-
 Testing with the HTML/CSS validators showed a few minor errors that were then corrected.
 
 ![HTML](assets/img/htmlvalidator.JPG)
@@ -165,7 +178,6 @@ Testing with the JSHint validator highlighted issues that I couldnt change as th
 The Lightbox Javascript was not passed in the validator as it was not written by me but is required when using the Lightbox API. I have attributed the credit for this to Lightbox and the file is clearly identified.
 
 ### Deployment
-
 #### How to deploy this project:
 1. Create a github account.
 2. Install the Gitpod extention.
@@ -179,6 +191,8 @@ The Lightbox Javascript was not passed in the validator as it was not written by
 4. In your chosen IDE in the terminal type "git clone (followed by the copied url).
 
 ## Credts:
+- Design for the toggle night/day darkmode was taken from https://www.youtube.com/watch?v=ZZoA3MjgASQ*/ & https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
+- Design on toggling the hompage experiences was taken from https://www.youtube.com/watch?v=WhU38HV-Iu8&t=380s
 - Logo [pixabay](https://cdn.pixabay.com/photo/2020/07/17/12/25/compass-5413948_1280.png)
 
 - [Quote#1](https://www.freepik.com/premium-photo/smilong-man-holiday-portrait-guy_5905917.htm)
@@ -186,7 +200,6 @@ The Lightbox Javascript was not passed in the validator as it was not written by
 - [Quote#3](https://pxhere.com/en/photo/540853)
 
 #### Map Images:
-
 - [Kilkenny Castle](https://pixabay.com/photos/kilkenny-castle-castle-kilkenny-3136336/)
 - [Glendalough](https://www.flickr.com/photos/53400673@N08/15378477522)
 - [Killarney](https://commons.wikimedia.org/wiki/File:Old_Weir_Bridge,_Killarney_National_Park.jpg)
@@ -216,7 +229,6 @@ The Lightbox Javascript was not passed in the validator as it was not written by
 - [Achill](https://www.eurocampings.co.uk/ireland/connacht/dugort/achill-seal-caves-caravan-camping-park-112321/)
 - [Castle](https://wallpapersafari.com/w/mZcnlV)
 
-
 #### MAP API
 - Places page [Map](https://leafletjs.com/examples/quick-start/)
 
@@ -228,11 +240,11 @@ The Lightbox Javascript was not passed in the validator as it was not written by
 
 #### Email function
  - Email from [EMailJS](https://www.emailjs.com/)
- - This was set up from the Code Institutes lesson under: Putting it all together > Sending Emails Using EmailJS > Sending Emails!
+ - This was set up from the Code Institutes lesson under: Putting it all together > Sending Emails Using EmailJS > Sending Emails! (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/)
 
 ### Acknowledgements:
 - Got help setting the footer to the bottom of the page on (https://stackoverflow.com/questions/3443606/make-footer-stick-to-bottom-of-page-correctly)
 - Got help setting the text-area with (https://www.tutorialspoint.com/How-to-Create-a-Multi-line-Text-Input-Text-Area-In-HTML#:~:text=To%20create%20a%20multi%2Dline%20text%20input%2C%20use%20the%20HTML,input%20text%20over%20multiple%20rows.&text=Specifies%20that%20on%20page%20load%20the%20text%20area%20should%20automatically%20get%20focus.)
-- Desaign for the toggle night/day darkmode was taken from https://www.youtube.com/watch?v=ZZoA3MjgASQ*/ & https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
-- Design on toggling the hompage experiences was taken from https://www.youtube.com/watch?v=WhU38HV-Iu8&t=380s
 - Help on adding layers to the Leaflet map was taken from https://www.youtube.com/watch?v=Nl7KxXHpl5o&t=124s 
+- W3Cschools did inspire me to add a good morning/good evening message
+- 

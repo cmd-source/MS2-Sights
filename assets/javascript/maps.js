@@ -70,4 +70,9 @@ var overlays = {
 // adding in the layer control
 
 L.control.layers(null, overlays).addTo(mymap);
-    
+
+
+$(".htour .p").click(function (e) {
+        e.preventDefault();
+        $(this).next().slideToggle('slow');
+    });
