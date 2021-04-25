@@ -1,24 +1,30 @@
 # Ireland's Sights
 
-There are 2 goals for this website. (1) For external users coming to the site to be able to plan their next stay within Ireland. (2) To get the users coming to the website to book a travel/tour guide package of Dublin, Wexford, Cork or Galway city. 
+There are 2 goals for this website. (1) For users coming to the site to be able to plan their next stay within Ireland and to be able to book guided city tours. (2) To get the users coming to the website to book a travel/tour guide package of Dublin, Wexford, Cork or Galway city. 
 
 ## UX
 
 ![mockup](assets/img/mockup.JPG)
 
-This website is mainly for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
+This website is for people who are in Ireland who want to travel but cannot travel aboad due to Covid-19. The website is targeted to familys and indiviuals looking to plan a staycation in Ireland. 
 
-- As an individual I want to be able to find an area in Ireland to travel to that I havent been to before. 
-- I want a range of choice and I want to see the experiences that others had before me.
-- I would want to be able to contact the sites owners easily
+- As a user coming to the site I want 
+    - I want to see the experiences that others had before me.
+    - I want to see the choice of the sights around Ireland.
+    - I would want to be able to contact the sites owners easily.
+    - I want individual/family price rates for the travel/tour packages.
+    - I want to have ease in navigating the site. I should be easy from the moment I land on the homepage to locate and book a guided tour or to see the sites around Ireland.
 
-- As a family we want to find an area to travel to within Ireland with a range of choice. 
-- We want to see a preview of the experiences others have had before us and the images of the locations to see if it would be possible to take small children.
-- We would also need family rates and the option of contacting the sites owners in order to ask additional questions that might arise.
-- We would want to be able to contact the sites owners easily 
+- As an owner of this site I want
+    - I want users to see the positive experiences that previous users have had before them (with the user experiences on the homepage)
+    - I want it to be easy for users to find the page to make a booking (incited with the blow up locator on the hompage)
+    - I want users to see that there are a few tour packages that they can choose from.
+    - I also want them to see that there are a number of sights outside of the guided tours in the event they wish to go exporing themselves. (Shown on the interactive map)
+    - I want them to be able to contact us if they need to (contact number displayed with email functionality from EmailJS)
+    - Finally I want a short About Us section in the footer to provide clarity on the purpose of the website. (In the footer)
 
 #### Wireframes:
-
+    
 - [Homepage](assets/img/homepage.JPG)
 - [Places](assets/img/places.JPG)
 - [Gallary](assets/img/gall.JPG)
