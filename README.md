@@ -11,6 +11,7 @@ This website is for people who are in Ireland who want to travel but cannot trav
 - As a user coming to the site I want 
     - I want to see the experiences that others had before me.
     - I want to see the choice of the sights around Ireland.
+    - I would want an idea of the sights that the website is promoting (images in the gallery)
     - I would want to be able to contact the sites owners easily.
     - I want individual/family price rates for the travel/tour packages.
     - I want to have ease in navigating the site. I should be easy from the moment I land on the homepage to locate and book a guided tour or to see the sites around Ireland.
@@ -86,7 +87,7 @@ For Mobile
 
 For Desktop/Tablet
 1. The page displays as intended with the Leaflet API.
-2. The map can be interacted with showing Sights, Hotels and Cities in the top right hand corner.
+2. The map can be interacted with showing markers for Sights, Hotels and Cities in the top right hand corner. These markers are clickable.
 3. The map can zoom in and out on the top left hand corner.
     ![map](assets/img/map.JPG)
 4. A description of the city tours extendeds when the user clicks on each.
@@ -114,7 +115,7 @@ For mobile
 1. The gallary originally fell outside of the background and scews to the right on mobile. This has been finxed with some padding/margin CSS. 
 2. Background image has been removed from the beginning as it didnt present well once the gallery images were displayed in one column.
 3. Currently there is still a small bug I'm investigating. There is a very thin gap when I pull the screen to the right a shown below.
-    ![gallerybug](assets/img/gallerybug)
+    ![gallerybug](assets/img/gallerybug.JPG)
 
 ### Contact Page
 
