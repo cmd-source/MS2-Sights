@@ -51,6 +51,7 @@ $(document).ready(function () {
 
 // adding in a hello message depending on the time of day
 
+$(document).ready(function (){
 let date = new Date();
 
 let time = date.getHours();
@@ -62,3 +63,4 @@ if (time < 12) {
     document.getElementById("hello").innerHTML = "Good evening!";
 } 
 
+})
