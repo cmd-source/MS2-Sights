@@ -34,7 +34,12 @@ This website is for people who are in Ireland who want to travel but cannot trav
     - Finally I want a short About Us section in the footer to provide clarity on the purpose of the website. (In the footer)
 
 #### Wireframes:
-Most of the original planning for the website has stayed in place. The general idea for the website was to have users land on the homapage and see the positive expereinces from previous users. They would then be incited to the Places page with the location marker which would expand when the hompage loaded, indicating it was clickable.   
+Most of the original planning for the website has stayed in place. The five planes of UX were kept in mind from the beginning of the design to the end. I believe that breaking the site into four seperate pages of Homepage, Places, Gallery and Contact US adds value with each page and allows for a flow from Strategy to Surface.
+
+1. Once a user first lands, the location marker expands indicating an interaction. They are also shown previous success stories.
+2. Once a user then clicks on the location marker they are transitioned to the Places page where they can interact with the map and underneath that book a city tour.
+3. The Places page also allows for an easy transition to the Contact Us page for enquiries and feedback.
+4. The intuative Navbar at the top of the page allows for ease in navigation between the 4 pages. 
  
  ![Homepage](assets/img/homepage.JPG)
 
@@ -51,17 +56,17 @@ The contact page was created with the idea of giving users the an ability to not
  ![Contact](assets/img/contact.JPG)
 
 #### Design
-The theme for the design is very plane for this website, originally a number of background images were tried but they all destracted from the core content. A plane white background that can alter to dark mode allows for focus on the core content. When an individual thinks about a trip or travelling they usually have an anticipated, playful and relaxing feeling. With that in mind the following design choices were selected.
+The theme for the design is very plane for this website, originally a number of background images were tried but they all distracted from the core content. A plane white background that can alter to dark mode allows for focus on the core content. When an individual thinks about a trip or travelling they usually have an anticipated, playful and relaxing feeling. With that in mind the following design choices were selected.
 
 #### Styling
 The font-family: Akaya Telivigala and cursive were selected to give a playful and relaxed feeling to the website.
 
 #### Images
-The images used are ones the elicit positive emotions. The user expereinces are happy individuals enjoying their time and the images slected for the gallery give a sense of awe and wonder of the sights around Ireland.
+The images used are ones the elicit positive emotions. The user expereinces are happy individuals enjoying their time and the images selected for the gallery give a sense of awe and wonder of the sights around Ireland.
 
 ![exp](assets/img/exp.JPG)
 
-The icons used for the map are very distint and make it very obvious on the differnce between hotels, cities and sights on first glance.
+The icons used for the map are very distinct and make it very obvious on the difference between hotels, cities and sights on first glance.
 
 ![map](assets/img/icons.JPG)
 
@@ -71,7 +76,7 @@ The icons used for the map are very distint and make it very obvious on the diff
 - On the Places page there is maps using LeafletJS API. The map can be filtered to show sights, cities and hotels. It also has 4 city tours which can be clicked on to expand and collapse the info.
 - On the Gallary there are 12 images which can be rotated through when clicked on by the user. The Gallary was made with the Lightbox API.
 - On the Contact page there is a submission form which allows the user to email any questions they may have. The Contact page was made with the EmailJS API. (Sends an email to my personal email address at the moment)
-- Onthe bottom of all pages there is a responsive footer.
+- On the bottom of all pages there is a responsive footer.
 
 #### Features Left to Implement
 - An option for the user to book the dates they want would be useful for future developement and could probably be achieved through an API.
@@ -146,7 +151,6 @@ For mobile
 
 ### Contact Page
 For Desktop/Tablet
-
 1. The contact page displays well on desktop.
 2. The input fields call for the users information in order to submit an email and will not allow submission unless info is entered.
 ![email](assets/img/email.JPG)
@@ -198,9 +202,9 @@ The Lightbox Javascript was not passed in the validator as it was not written by
 
 #### How to clone and deploy this project:
 1. Navigate to the repository where the project is stored.
-2. Click on the Code button which will give the option to download the contect and the url.
+2. Click on the Code button which will give the option to download the content and the url.
 3. Copy the url.
-4. In your chosen IDE in the terminal type "git clone (followed by the copied url).
+4. In your chosen IDE in the terminal type "git clone (followed by the copied url)".
 
 ## Credts:
 - Design for the toggle night/day darkmode was taken from https://www.youtube.com/watch?v=ZZoA3MjgASQ*/ & https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
