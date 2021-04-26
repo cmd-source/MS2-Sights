@@ -35,15 +35,19 @@ This website is for people who are in Ireland who want to travel but cannot trav
 
 #### Wireframes:
 Most of the original planning for the website has stayed in place. The general idea for the website was to have users land on the homapage and see the positive expereinces from previous users. They would then be incited to the Places page with the location marker which would expand when the hompage loaded, indicating it was clickable.   
+ 
  ![Homepage](assets/img/homepage.JPG)
 
 Once they were on the Places page they could interacte with the map of Ireland to check out sights, cities and hotels. On that same page underneath would be the agency tour packages for city tours.
+ 
  ![Places](assets/img/places.JPG)
 
 The gallery page was intended to present a visual image of the range of sights there are to see around Ireland. It was later decided to make the gallery more interactive with the Lightbox API. This allowed the user to select an image blow it up and scroll through them. 
+ 
  ![Gallary](assets/img/gall.JPG)
 
 The contact page was created with the idea of giving users the an ability to not only make a booking but to also provide a channel to give needed feedback to site owners.
+ 
  ![Contact](assets/img/contact.JPG)
 
 #### Design
@@ -54,10 +58,12 @@ The font-family: Akaya Telivigala and cursive were selected to give a playful an
 
 #### Images
 The images used are ones the elicit positive emotions. The user expereinces are happy individuals enjoying their time and the images slected for the gallery give a sense of awe and wonder of the sights around Ireland.
-[exp](assets/img/exp.JPG)
+
+![exp](assets/img/exp.JPG)
 
 The icons used for the map are very distint and make it very obvious on the differnce between hotels, cities and sights on first glance.
-[map](assets/img/icons.JPG)
+
+![map](assets/img/icons.JPG)
 
 ## Features
 - A navbar for desktop that collapses into a hamburger icon for the mobile version, the narbar includes a dark mode as well as page links.
@@ -87,13 +93,15 @@ The website uses the following technologies, libraries and API's:
 
 ### Homepage
 For Desktop/Tablet
-1. The hompage displays as intended with the locator marker expanding as the page loads 
-
+1. The hompage displays as intended with the locator marker expanding as the page loads
+2. The Good morning/Good evening message also changes depending on the time of day. 
+    
     ![locator](assets/img/markerlocator.JPG)
 
 2. The three experiences of previous users work correctly with the images expanding with a mouse hover and a shadow behind the image.
 3. When the user clicks on John's Experience, Tom's Experience or Emma's Experience a paragraph of their experience will dropdown.
 4. With a second click the paragraph will retract 
+    
     ![home](assets/img/home.JPG)
 
 For Mobile
@@ -115,14 +123,17 @@ Mobile
 3. On mobile both the city tour button and the paragraph underneath it would collapse together originally when clicked a second time. Although I couldnt pinpoint the problem, I ended up using Jquery code from the homepage "experience" to give the same functionality I wanted.
 4. The prices and city tours show underneath with contact details for booking.
 5. Currently there is still a small bug I'm investigating. There is a very thin gap when I pull the screen to the right a shown below.
+    
     ![placesbug](assets/img/placesbug.JPG)
 
 ### Gallery
 For Desktop/Tablet
 1. The Gallery displays well on desktop.
 2. The images appear small with a grey filter over them until the user hovers over an image.
+    
     ![gal](assets/img/gal.JPG)
 3. When the user clicks on a photo the image expands and the user can then navigate through the photos.
+    
     ![gal2](assets/img/gal2.JPG)
 4. Oringianlly my left/right arrows and close button were missing, but this was corrected with a file path update.
 
@@ -130,6 +141,7 @@ For mobile
 1. The gallary originally fell outside of the background and scews to the right on mobile. This has been finxed with some padding/margin CSS. 
 2. Background image has been removed from the beginning as it didnt present well once the gallery images were displayed in one column.
 3. Currently there is still a small bug I'm investigating. There is a very thin gap when I pull the screen to the right a shown below.
+    
     ![gallerybug](assets/img/gallerybug.JPG)
 
 ### Contact Page
@@ -247,4 +259,4 @@ The Lightbox Javascript was not passed in the validator as it was not written by
 - Got help setting the text-area with (https://www.tutorialspoint.com/How-to-Create-a-Multi-line-Text-Input-Text-Area-In-HTML#:~:text=To%20create%20a%20multi%2Dline%20text%20input%2C%20use%20the%20HTML,input%20text%20over%20multiple%20rows.&text=Specifies%20that%20on%20page%20load%20the%20text%20area%20should%20automatically%20get%20focus.)
 - Help on adding layers to the Leaflet map was taken from https://www.youtube.com/watch?v=Nl7KxXHpl5o&t=124s 
 - W3Cschools did inspire me to add a good morning/good evening message
-- 
+- Stackoverflow would have influenced some of my decisions
